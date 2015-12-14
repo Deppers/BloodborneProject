@@ -1,0 +1,82 @@
+﻿<Page
+    x:Class="BloodborneApp.ShadowOfYharnam"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="195" Margin="6,167,0,0" VerticalAlignment="Top" Width="347" Source="/Assets/Shadow_Of_Yharnam.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="Shadow of Yharnam is a Boss in Bloodborne."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Shadow of Yharnam Information"/>
+            	<LineBreak/>
+            	<Run Text="You gain 0 Insight for finding the boss and 2 Insight for beating it."/>
+            	<LineBreak/>
+            	<Run Text="If left alive too long, all 3 will transform, plus gaining the summoning ability."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Locations"/>
+            	<LineBreak/>
+            	<Run Text="At the very end/bottom of the Forbidden Woods."/>
+            	<LineBreak/>
+            	<Run Text="As regular enemies at Mergo's Loft Middle."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Drops"/>
+            	<LineBreak/>
+            	<Run Text="Blood Echoes NG (20,460), NG+ (97,948), NG++ (107,743), NG+3 (122,435), NG+4 (146,922), NG+6 and so on (244,869)"/>
+            	<LineBreak/>
+            	<Run Text="Blood Rapture"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Combat Information"/>
+            	<LineBreak/>
+            	<Run Text="Strong against Arcane damage."/>
+            	<LineBreak/>
+            	<Run Text="There are three Shadows in this fight. The first wields a katana trick weapon much like the Chikage, the second a scimitar and a candle which acts in a similar fashion to the Flamesprayer, the third holds a flame in hand similar to the pyromancy flame from Dark Souls."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="The Shadow of Yharnam boss has 3 phases:"/>
+            	<LineBreak/>
+            	<Run Text="When no Shadow has less than 80% health."/>
+            	<LineBreak/>
+            	<Run Text="When one Shadow has been damaged below the threshold, they will all transform gaining additional abilities."/>
+            	<LineBreak/>
+            	<Run Text="When 2 are dead, or 1 is dead and the rest reached 10% health, the survivors will gain the ability to summon giant snakes that generally kill you in 1 hit."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="They will not heal between stages, so it is recommended getting them all close to 30% HP before letting them transform, then during the second phase, get them both close to death, and you can then finish the last one off right after the second, essentially skipping the third phase."/>
+            	<LineBreak/>
+            	<Run Text="All three of the Shadows can be parried. After you kill the fully melee one, the second one starts swinging his own sword, leaving him open to parries and when you get close to the fire throwing one, he switches to physical attacks, which can all be parried."/>
+            	<LineBreak/>
+            	<Run Text="The Shaman Bone Blade works on them allowing you to easily kill them off."/>
+            	<LineBreak/>
+            	<Run Text="Especially weak against Bolt - Tonitrus or Bolt Paper makes this fight much easier."/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="119,131,0,0" TextWrapping="Wrap" Text="Shadow Of Yharnam" VerticalAlignment="Top"/>
+    </Grid>
+</Page>

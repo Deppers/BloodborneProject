@@ -1,0 +1,87 @@
+﻿<Page
+    x:Class="BloodborneApp.FatherGascoigne"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:ConnectionId='1' x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top"                     />
+        <Image x:ConnectionId='2' x:Name="image" HorizontalAlignment="Left" Height="196" Margin="8,160,0,0" VerticalAlignment="Top" Width="346" Source="/Assets/father_gascoigne_boss.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:ConnectionId='4' x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="Father Gascoigne is a Boss in Bloodborne. He is also related to a quest from NPC Viola's."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="&quot;...Beasts all over the shop... You'll be one of them, sooner or later...&quot;"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Father Gascoigne Information"/>
+            	<LineBreak/>
+            	<Run Text="You can summon Gascoigne to help you fight the Cleric Beast boss fight (must have the Beckoning Bell). He can be found through the locked door at the Central Yarnham Lamp. Head down the stairs, and look for the messenger's note &quot;Ring the Beckoning Bell if you require assistance.&quot; next to the torch and axe wielding villager. A second summoning spot can be found near the fountain where the first brick troll you encounter."/>
+            	<LineBreak/>
+            	<Run Text="The Tiny Music Box item has a negative effect on Gascoigne in human and beast form. Using the item in close proximity to him causes him to stop attacking, instead clutching his head in pain and muttering to himself. This leaves him wide open to attacks. However, if you use it 3 times while he is still human, he will transform into beast before he normally would."/>
+            	<LineBreak/>
+            	<Run Text="This boss fight is not optional as it is currently the only way to Cathedral Ward."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Locations"/>
+            	<LineBreak/>
+            	<Run Text="At the end of Central Yharnam. You will need to clear or run by most of the sewers area, head up the ladder before or after the Gargantuan Pig, and make your way forward and left."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Drops"/>
+            	<LineBreak/>
+            	<Run Text="Blood Echoes: NG (1,800), NG+(34,393), NG++ (37,832), NG+3 (42,991), NG+4 (51,589), NG+6 and so on (85,982)"/>
+            	<LineBreak/>
+            	<Run Text="Oedon Tomb Key"/>
+            	<LineBreak/>
+            	<Run Text="Gain 1 Insight for finding the boss, 1 Insight for seeing his beast form and 2 Insight for killing him."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Combat Information"/>
+            	<LineBreak/>
+            	<Run Text="Gascoigne is weak to fire, in human and beast form. Molotov Cocktails are very effective in this fight, especially when he is in beast form as his Fire RES is even less then and it is much harder to melee him without taking damage."/>
+            	<LineBreak/>
+            	<Run Text="He can also be parried in either of his forms. This is a very effective way to deal with him should he get too close, or if you are having trouble timing your melees."/>
+            	<LineBreak/>
+            	<Run Text="Make sure to keep your health topped up when fighting Gascoigne, especially when he enters beast mode. The combos he can hit will drain HP significantly so be generous with your Blood Vials."/>
+            	<LineBreak/>
+            	<Run Text="Remember that you can use the Tiny Music Box to stun him if you are having trouble."/>
+            	<LineBreak/>
+            	<Run Text="Being a humanoid enemy, Gascoigne can be knocked down by Hunter Axe and Burial Blade two handed charge attack."/>
+            	<LineBreak/>
+            	<Run Text="Beast Form (Phase 3) increases all of his defenses but reduces his fire defense. During this phase he is considered a Beast and anything that increases damage vs Beasts will apply."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="The fight has three phases:"/>
+            	<LineBreak/>
+            	<Run Text="Gascoigne attacks you with an untransformed Hunter Axe and his Hunter Blunderbuss."/>
+            	<LineBreak/>
+            	<Run Text="Gascoigne attacks you with a transformed Hunter Axe and his Hunter Blunderbuss, introducing charged and longer reaching movements."/>
+            	<LineBreak/>
+            	<Run Text="Gascoigne transforms into a beast, leaping and slashing at you quickly with his claws. This last portion can be challenging, make good use of the counter moves listed on this page."/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="124,111,0,0" TextWrapping="Wrap" Text="Father Gascoigne" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
+

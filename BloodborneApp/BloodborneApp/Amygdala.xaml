@@ -1,0 +1,90 @@
+﻿<Page
+    x:Class="BloodborneApp.Amygdala"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="192" Margin="17,180,0,0" VerticalAlignment="Top" Width="332" Source="/Assets/amygdala_boss.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="Amygdala is a Great One Boss in Bloodborne. It's similar to the large enemies who attempt to grab the Hunter with portals, but lighter in color, and lacks the tentacles on its head."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Amygdala Information"/>
+            	<LineBreak/>
+            	<Run Text="Gain 3 Insight for finding the boss and 3 Insight for killing him."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Location"/>
+            	<LineBreak/>
+            	<Run Text="Nightmare Frontier, at the bottom near the shortcut lift that is guarded by a Silverbeast."/>
+            	<LineBreak/>
+            	<Run Text="To reach the Frontier, one must obtain the Tonsil Stone from one of four building-dwelling NPCs after nightfall and be abducted by the Amygdala hanging from the wall to the right and down of the Grand Cathedral in Cathedral Ward."/>
+            	<LineBreak/>
+            	<Run Text="This boss can also be found in the Defiled Chalice Dungeon, at the end of Layer 3."/>
+            	<LineBreak/>
+            	<Run Text="Lesser Amygdala, the non-boss version can be found across Cathedral Ward and Yahar'Gul, Unseen Village, they are treated as obstacles rather than enemies."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Drops"/>
+            	<LineBreak/>
+            	<Run Text="Blood Echoes: NG (21,000), NG+ (145,866), NG++ (?), NG+3 (182,333), NG+4 (213,800), NG+7 and so on (364,665)"/>
+            	<LineBreak/>
+            	<Run Text="Ailing Loran Chalice"/>
+            	<LineBreak/>
+            	<Run Text="Great Pthumeru Ihyll Chalice (when fought in Defiled Chalice)"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Combat Information"/>
+            	<LineBreak/>
+            	<Run Text="Weak to Arcane, Fire and Bolt Damage."/>
+            	<LineBreak/>
+            	<Run Text="Strong against Blunt Damage."/>
+            	<LineBreak/>
+            	<Run Text="Amygdala has relatively low health for a boss, but only its head and front limbs are vulnerable to physical attacks. Attacking the lower half of the body will do much less damage, unless elemental damage is used. However there seems to be a sweet-spot in its crotch that can be hit with a high swinging weapon such as transformed Ludwig's L2 or Burial Blade, will deal standard damage."/>
+            	<LineBreak/>
+            	<Run Text="Projectile weapons aimed at the head can deal damage to Amygdala quite reliably. The Executioner's Gloves is a great way to do this."/>
+            	<LineBreak/>
+            	<Run Text="Watch out for its stomp attacks and jumping attacks. Its 3rd phase (about 30% HP) is very aggressive, and is the hardest part of this fight. During this stage, it will rip off two of her arms and swing them as weapons."/>
+            	<LineBreak/>
+            	<Run Text="Visceral Attacks can be performed by doing damage to Amygdala's head."/>
+            	<LineBreak/>
+            	<Run Text="There are 2 opportunities for Visceral Attacks (which signal the phase changes), the last one can be done once Amygdala's health gets below 10%. Don't miss it as it will end the fight if you get it. (If you know you are close to that mark, start shooting your gun at its head and get ready to run in)"/>
+            	<LineBreak/>
+            	<Run Text="If you attack its arms, they will visibly bleed out. Any attack on that arm will do increased damage until it heals it, so it's more effective to focus on one, if possible. This tactic also works on its legs, though the damage before bleeding is significantly reduced."/>
+            	<LineBreak/>
+            	<Run Text="One can use the greatsword form of Ludwig's Holy Blade to hit its head at almost any time during the fight, via the L2 attack."/>
+            	<LineBreak/>
+            	<Run Text="For NG+ and onwards, the Burial Blade's secondary form (the long scythe form) can hit the head even more easily than Ludwig's."/>
+            	<LineBreak/>
+            	<Run Text="An upgraded Cannon with Bone Marrow Ash is also very effective, as is the Tonitrus, and the Threaded Cane in either form. All of these are safe, simple, and fun strategies to use."/>
+            	<LineBreak/>
+            	<Run Text="If you're having trouble with Amygdala's third stage, get behind it and attack. It should jump, but it will jump away from you, and it should be still facing away when it lands. When this happens, dash for it and use a dashing attack on its legs or tail. It'll do small damage, but it'll be safe. Keep pursuing it and hurting it. Eventually you will tenderize its legs or tail and you can do more damage to it. It'll take a while, but it's safer than trying to attack its head and arms now--especially in the Defiled Chalice. Occasionally, it may still try to stomp, so be ready to dodge it."/>
+            	<LineBreak/>
+            	<Run Text="Attacking the arm closest to her legs will more often than not trigger her stomp attack, making her first two stages much easier. However this is not always the case and she may flail her arms instead, in which case dodging outward or between her legs is the safest method."/>
+            	<LineBreak/>
+            	<Run Text="Standing still during her third phase jump attack will always have her land a distance away from you, quickly running back to the arm closest to her leg will have her repeat this process. Through this method you can land a couple guaranteed hits from relative safety upon each landing."/>
+            	<LineBreak/>
+            	<Run Text="EXTREMELY weak to A Call Beyond"/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="151,132,0,0" TextWrapping="Wrap" Text="Amygdala " VerticalAlignment="Top"/>
+    </Grid>
+</Page>

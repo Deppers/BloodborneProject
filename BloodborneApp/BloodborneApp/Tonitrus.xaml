@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="BloodborneApp.Tonitrus"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="201" Margin="85,151,0,0" VerticalAlignment="Top" Width="202" Source="/Assets/Tonitrus.jpg"/>
+        <TextBlock x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="165,107,0,0" TextWrapping="Wrap" Text="Tonitrus" VerticalAlignment="Top"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="Tonitrus is a Trick Weapon in Bloodborne. There are 3 versions of this weapon: Normal, Uncanny and Lost. The only known differences being the Gem Imprints and the locations in which they are found."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="&quot;A unique trick weapon contrived by Archibald, the infamous eccentric of the Healing Church workshop."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Striking this peculiar iron morning star flail like a match generates the same blue sparks that blanket a darkbeast."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Unfortunately, for reasons untold, the hunters of Archibald's time did not fully take to the device.&quot;"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Tonitrus Information"/>
+            	<LineBreak/>
+            	<Run Text="Does not transform; hitting L1 buffs it with bolt damage for a short period of time."/>
+            	<LineBreak/>
+            	<Run Text="To perform a transformation attack, press L1 while performing another attack or dodge."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Location"/>
+            	<LineBreak/>
+            	<Run Text="Normal"/>
+            	<LineBreak/>
+            	<Run Text="Acquire the Spark Hunter Badge by defeating Darkbeast Paarl to purchase from Messengers."/>
+            	<LineBreak/>
+            	<Run Text="Treasure: Yahar'gul, Unseen Village, at the top end of the road. (guarded by 2 Tainted Dogs and a Snatcher during daytime)"/>
+            </TextBlock>
+        </ScrollViewer>
+    </Grid>
+</Page>

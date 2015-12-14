@@ -1,0 +1,768 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-T3HEI6C</Machine>
+    <WindowsUser>Deppers</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>67b7ddca-31ee-497c-9686-d51b2ea8c88b</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>04D112670660F8B8C15C46502B308E8CA5BDF4C5527D3EFFC855C02B617491FB</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>11078Deppers.BloodborneInfoApp_1.1.1.0_x86__3ppy81k0pcatp</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>11078Deppers.BloodborneInfoApp_3ppy81k0pcatp!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>11078Deppers.BloodborneInfoApp</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=DFB3B2BF-0897-47D8-9416-91ABE3D54A87</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.1.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-12T21:58:10.930</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+      <Modified>2015-12-07T18:40:12.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\amygdala_boss.jpg">
+      <PackagePath>Assets\amygdala_boss.jpg</PackagePath>
+      <Modified>2015-12-11T01:24:36.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\bbWallpaper.jpg">
+      <PackagePath>Assets\bbWallpaper.jpg</PackagePath>
+      <Modified>2015-12-07T18:52:44.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\beast_claw.jpg">
+      <PackagePath>Assets\beast_claw.jpg</PackagePath>
+      <Modified>2015-12-10T14:31:25.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\blade_of_mercy.jpg">
+      <PackagePath>Assets\blade_of_mercy.jpg</PackagePath>
+      <Modified>2015-12-10T14:31:31.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\blood-starved_beast_boss.jpg">
+      <PackagePath>Assets\blood-starved_beast_boss.jpg</PackagePath>
+      <Modified>2015-12-11T01:23:52.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\bossWallpaper.jpg">
+      <PackagePath>Assets\bossWallpaper.jpg</PackagePath>
+      <Modified>2015-12-07T21:11:02.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\burial_blade.jpg">
+      <PackagePath>Assets\burial_blade.jpg</PackagePath>
+      <Modified>2015-12-10T14:31:38.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\cainhurst_badge.jpg">
+      <PackagePath>Assets\cainhurst_badge.jpg</PackagePath>
+      <Modified>2015-12-11T02:15:20.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\celestial_emissary_boss.jpg">
+      <PackagePath>Assets\celestial_emissary_boss.jpg</PackagePath>
+      <Modified>2015-12-11T01:24:38.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\chikage.jpg">
+      <PackagePath>Assets\chikage.jpg</PackagePath>
+      <Modified>2015-12-10T14:31:42.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\cleric_beast_boss.jpg">
+      <PackagePath>Assets\cleric_beast_boss.jpg</PackagePath>
+      <Modified>2015-12-11T01:23:56.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\Cosmic_Eye_Watcher_Badge.png">
+      <PackagePath>Assets\Cosmic_Eye_Watcher_Badge.png</PackagePath>
+      <Modified>2015-12-11T02:17:20.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\crow_hunter_badge.jpg">
+      <PackagePath>Assets\crow_hunter_badge.jpg</PackagePath>
+      <Modified>2015-12-11T02:15:46.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\darkbeast_paarl_boss.jpg">
+      <PackagePath>Assets\darkbeast_paarl_boss.jpg</PackagePath>
+      <Modified>2015-12-11T01:23:59.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\ebrietas_boss.jpg">
+      <PackagePath>Assets\ebrietas_boss.jpg</PackagePath>
+      <Modified>2015-12-11T01:24:41.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\father_gascoigne_boss.jpg">
+      <PackagePath>Assets\father_gascoigne_boss.jpg</PackagePath>
+      <Modified>2015-12-11T01:24:04.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\firing_hammer_badge.jpg">
+      <PackagePath>Assets\firing_hammer_badge.jpg</PackagePath>
+      <Modified>2015-12-11T02:15:54.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\gehrman_boss.jpg">
+      <PackagePath>Assets\gehrman_boss.jpg</PackagePath>
+      <Modified>2015-12-11T01:24:06.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\hunter_axe.jpg">
+      <PackagePath>Assets\hunter_axe.jpg</PackagePath>
+      <Modified>2015-12-10T18:27:13.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\item.jpg">
+      <PackagePath>Assets\item.jpg</PackagePath>
+      <Modified>2015-12-10T16:37:44.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\itemWallpaper.jpg">
+      <PackagePath>Assets\itemWallpaper.jpg</PackagePath>
+      <Modified>2015-12-07T21:14:15.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\kirkhammer.jpg">
+      <PackagePath>Assets\kirkhammer.jpg</PackagePath>
+      <Modified>2015-12-10T18:27:25.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-12-12T21:51:37.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\logarius_boss.jpg">
+      <PackagePath>Assets\logarius_boss.jpg</PackagePath>
+      <Modified>2015-12-11T01:24:13.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\logarius_wheel.jpg">
+      <PackagePath>Assets\logarius_wheel.jpg</PackagePath>
+      <Modified>2015-12-10T18:27:40.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\ludwig.jpg">
+      <PackagePath>Assets\ludwig.jpg</PackagePath>
+      <Modified>2015-12-10T18:46:15.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\menuWallpaper.png">
+      <PackagePath>Assets\menuWallpaper.png</PackagePath>
+      <Modified>2015-12-07T20:37:17.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\mergos_wet_nurse_boss.jpg">
+      <PackagePath>Assets\mergos_wet_nurse_boss.jpg</PackagePath>
+      <Modified>2015-12-11T01:24:45.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\micolash_boss.jpg">
+      <PackagePath>Assets\micolash_boss.jpg</PackagePath>
+      <Modified>2015-12-11T01:24:09.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\moon_presense_boss.jpg">
+      <PackagePath>Assets\moon_presense_boss.jpg</PackagePath>
+      <Modified>2015-12-11T01:24:48.626</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\Old_Hunter_Badge.png">
+      <PackagePath>Assets\Old_Hunter_Badge.png</PackagePath>
+      <Modified>2015-12-11T02:17:42.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\powder_keg_hunter_badge.jpg">
+      <PackagePath>Assets\powder_keg_hunter_badge.jpg</PackagePath>
+      <Modified>2015-12-11T02:16:36.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\radiant_sword_hunter_badge.jpg">
+      <PackagePath>Assets\radiant_sword_hunter_badge.jpg</PackagePath>
+      <Modified>2015-12-11T02:17:51.307</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\reiterpallasch.jpg">
+      <PackagePath>Assets\reiterpallasch.jpg</PackagePath>
+      <Modified>2015-12-10T18:49:34.736</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\rifle_spear.jpg">
+      <PackagePath>Assets\rifle_spear.jpg</PackagePath>
+      <Modified>2015-12-10T18:54:47.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\rom_boss.jpg">
+      <PackagePath>Assets\rom_boss.jpg</PackagePath>
+      <Modified>2015-12-11T01:24:53.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\saw_cleaver.jpg">
+      <PackagePath>Assets\saw_cleaver.jpg</PackagePath>
+      <Modified>2015-12-10T19:00:36.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\saw_hunter_badge.jpg">
+      <PackagePath>Assets\saw_hunter_badge.jpg</PackagePath>
+      <Modified>2015-12-11T02:17:59.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\saw_spear.jpg">
+      <PackagePath>Assets\saw_spear.jpg</PackagePath>
+      <Modified>2015-12-10T19:10:26.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\Shadow_of_Yharnam.jpg">
+      <PackagePath>Assets\Shadow_of_Yharnam.jpg</PackagePath>
+      <Modified>2015-12-11T01:24:20.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\spark_hunter_badge.jpg">
+      <PackagePath>Assets\spark_hunter_badge.jpg</PackagePath>
+      <Modified>2015-12-11T02:18:07.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-12T21:51:51.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-12T21:52:24.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-12T21:52:04.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-12T21:52:14.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\stake_driver.jpg">
+      <PackagePath>Assets\stake_driver.jpg</PackagePath>
+      <Modified>2015-12-10T20:04:50.985</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-12T21:53:00.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\sword_hunter_badge.jpg">
+      <PackagePath>Assets\sword_hunter_badge.jpg</PackagePath>
+      <Modified>2015-12-11T02:18:16.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\the_one_reborn_boss.jpg">
+      <PackagePath>Assets\the_one_reborn_boss.jpg</PackagePath>
+      <Modified>2015-12-11T01:24:16.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\threaded_cane.jpg">
+      <PackagePath>Assets\threaded_cane.jpg</PackagePath>
+      <Modified>2015-12-10T20:07:16.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\Tonitrus.jpg">
+      <PackagePath>Assets\Tonitrus.jpg</PackagePath>
+      <Modified>2015-12-10T20:07:24.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\vicar_amelia.jpg">
+      <PackagePath>Assets\vicar_amelia.jpg</PackagePath>
+      <Modified>2015-12-11T01:24:24.431</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\weaponWallpaper.jpg">
+      <PackagePath>Assets\weaponWallpaper.jpg</PackagePath>
+      <Modified>2015-12-07T21:08:19.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\Wheel_Hunter_Badge.png">
+      <PackagePath>Assets\Wheel_Hunter_Badge.png</PackagePath>
+      <Modified>2015-12-11T02:18:39.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-12T21:52:52.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Assets\witch_of_hemwick_boss.jpg">
+      <PackagePath>Assets\witch_of_hemwick_boss.jpg</PackagePath>
+      <Modified>2015-12-11T01:24:27.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\BloodborneApp.exe">
+      <PackagePath>BloodborneApp.exe</PackagePath>
+      <Modified>2015-12-12T21:58:10.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\BloodborneApp.xr.xml">
+      <PackagePath>BloodborneApp.xr.xml</PackagePath>
+      <Modified>2015-12-11T03:46:48.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+      <Modified>2015-12-07T18:40:06.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\entrypoint\BloodborneApp.exe">
+      <PackagePath>entrypoint\BloodborneApp.exe</PackagePath>
+      <Modified>2015-12-12T21:58:09.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
+      <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
+      <Modified>2015-12-07T18:40:03.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.PersistenceChannel.dll">
+      <PackagePath>Microsoft.ApplicationInsights.PersistenceChannel.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.191</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2015-12-07T18:39:59.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-12-12T21:58:10.388</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2015-12-07T18:40:06.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.324</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.dll">
+      <PackagePath>System.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.403</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Net.Http.Rtc.dll">
+      <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.884</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Private.Networking.dll">
+      <PackagePath>System.Private.Networking.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Private.ServiceModel.dll">
+      <PackagePath>System.Private.ServiceModel.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Reflection.Context.dll">
+      <PackagePath>System.Reflection.Context.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+      <Modified>2015-12-07T18:40:06.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+      <Modified>2015-12-07T18:40:06.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+      <Modified>2015-12-07T18:40:06.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2015-12-07T18:40:06.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.888</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.952</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.019</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.910</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.ServiceModel.dll">
+      <PackagePath>System.ServiceModel.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2015-12-07T18:40:06.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+      <Modified>2015-12-07T18:40:06.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+      <Modified>2015-12-07T18:40:06.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+      <Modified>2015-12-07T18:40:06.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+      <Modified>2015-12-07T18:40:06.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.969</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+      <Modified>2015-12-07T18:40:06.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+      <Modified>2015-12-07T18:40:06.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+      <Modified>2015-12-07T18:40:04.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+      <Modified>2015-12-07T18:40:05.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Debug\Core\WinMetadata\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2015-10-05T13:07:56.247</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23302.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23302.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23302.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23302.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x64\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23302.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23302.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x86\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

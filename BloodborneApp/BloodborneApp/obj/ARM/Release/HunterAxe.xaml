@@ -1,0 +1,59 @@
+﻿<Page
+    x:Class="BloodborneApp.HunterAxe"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:ConnectionId='1' x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top"                     />
+        <Image x:ConnectionId='2' x:Name="image" HorizontalAlignment="Left" Height="144" Margin="97,192,0,0" VerticalAlignment="Top" Width="147" Source="/Assets/hunter_axe.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:ConnectionId='4' x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="The Hunter Axe is a Trick Weapon in Bloodborne. There are 3 versions of this weapon: Normal, Uncanny and Lost. The only known differences being the Gem Imprints and the locations in which they are found."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="&quot;One of the trick weapons of the workshop, commonly used on the hunt. Retains the qualities of an axe, but offers a wider palette of attacks by transforming. Boasts a heavy blunt attack, leading to high rally potential. No matter their pasts, beasts are no more than beasts. Some choose this axe to play the part of executioner.&quot;"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Hunter Axe Information"/>
+            	<LineBreak/>
+            	<Run Text="Transforms between a one-handed axe and a Halberd."/>
+            	<LineBreak/>
+            	<Run Text="Requires Blood Stone Shards and Blood Echoes to fully upgrade."/>
+            	<LineBreak/>
+            	<Run Text="To perform a leap attack, input forward on the left stick as you press R2."/>
+            	<LineBreak/>
+            	<Run Text="To perform a transformation attack, press L1 while performing another attack or dodge."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Location"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Normal"/>
+            	<LineBreak/>
+            	<Run Text="It is possible to pick this weapon as a starting weapon at the beginning of Bloodborne."/>
+            	<LineBreak/>
+            	<Run Text="If not chosen, it can be purchased from the messengers after the player has found the Saw Hunter Badge."/>
+            	<LineBreak/>
+            	<Run/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="132,145,0,0" TextWrapping="Wrap" Text="Hunters Axe" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
+

@@ -1,0 +1,81 @@
+﻿<Page
+    x:Class="BloodborneApp.Micolash"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:ConnectionId='1' x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top"                     />
+        <Image x:ConnectionId='2' x:Name="image" HorizontalAlignment="Left" Height="183" Margin="20,180,0,0" VerticalAlignment="Top" Width="324" Source="/Assets/micolash_boss.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:ConnectionId='4' x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="Micolash, Host of the Nightmare is a Boss in Bloodborne."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Micolash, Host of the Nightmare Information"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Locations"/>
+            	<LineBreak/>
+            	<Run Text="In Nightmare of Mensis, taking a left from the lantern, follow the path to the castle and progress through until you reach a long bridge and two rising Ethereal Walkers, after which you will find the boss room."/>
+            	<LineBreak/>
+            	<Run Text="After defeating this boss, the long bridge will rise and the Mergo's Loft Middle lantern will spawn."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Drops"/>
+            	<LineBreak/>
+            	<Run Text="Blood Echoes: NG (48400), NG+ (242000), NG++(266200), NG+3 (302500)"/>
+            	<LineBreak/>
+            	<Run Text="Mensis Cage"/>
+            	<LineBreak/>
+            	<Run Text="You gain 2 Insight for finding the boss, and 2 Insight for beating it."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Combat Information"/>
+            	<LineBreak/>
+            	<Run Text="You will be fighting him in a library with steps going up and down. There is tons of mist on the ground making enemies harder to see. Overall he is not aggressive boss, but has one dangerous AoE spell, tentacle arms, and Ethereal Walkers who help him during the first part of the fight."/>
+            	<LineBreak/>
+            	<Run Text="Initially you need to find and follow him to a dead end room where you can beat on him until he is half health."/>
+            	<LineBreak/>
+            	<Run Text="He will teleport away after half health. Head up the stairs, past a few of the crossbow Mannequins. You will arrive in another area that looks just like the first area. He will be there, but will soon run into a dead end room, dropping a gate that prevents you from entering. Head up the stairs here and you will find a drop down where you can drop into that dead end room."/>
+            	<LineBreak/>
+            	<Run Text="When you engage the boss for the second time he will be much more aggressive, using Augur of Ebrietas, fists (very weak), and an AoE spell that is very difficult to dodge and might one shot you. The secret here is to never let him cast the AoE spell, because if he does then you are really only counting on luck to survive it. If you stand really close to him (literally touching him), he will never use that spell, resorting instead to his fists and tentacles, which allows you to simply stun him to death, while occasionally strafing to dodge his tentacles. If you get too far away and he does manage to start the spell, shoot him immediately, if you catch him early enough in the animation it will stagger him out of the casting"/>
+            	<LineBreak/>
+            	<Run Text="Backstabs (charged R2 to the back) can be performed when he does the tentacle attack if you have a fast enough weapon. This is a reliable way to deal considerable damage (and even heal yourself if you have the right runes), particularly during the first half of the fight."/>
+            	<LineBreak/>
+            	<Run Text="Depending on your insight count, Micolash may teleport through different mirrors after teleporting at half health. After hitting Micolash several times along the chase from mirror to mirror, he will eventually run into the dead end room as usual."/>
+            	<LineBreak/>
+            	<Run Text="In his second location, Micolash gains the ability to use A Call Beyond to summon numerous arcane missiles and unleash them upon the hunter (also used by hostile hunter in Bergynwerth). If it hits multiple times it will kill anyone from full health (it has no trouble 1 shotting a hunter with 50 vitality and equipped with full choir set). He will sometimes spam this ability, using it again as soon as he completes channeling the first attack. Using the old hunter bone will help somewhat but other than that there is no real counter when he does this, since unlike the Augur of Ebrietas, this attack cannot be interrupted and the missiles will fire even if Micolash is staggered in the middle of this channel animation."/>
+            	<LineBreak/>
+            	<Run Text="If you have a high enough Arcane to use Beast Roar, hit him with as many attacks as you can. Then, once your Stamina bar is almost empty, cast beast roar. It will knock him down and give you time to either heal or get your stamina back to repeat the process. This will insure that he will never get a chance to cast his AoE again."/>
+            	<LineBreak/>
+            	<Run/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="82,133,0,0" TextWrapping="Wrap" Text="Micolash, Host of the Nightmare" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
+

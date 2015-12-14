@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="BloodborneApp.PowderKHBadge"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="225" Margin="81,148,0,0" VerticalAlignment="Top" Width="222" Source="/Assets/powder_keg_hunter_badge.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="&quot;Badge crafted by the Powder Kegs, the heretics of the Workshop."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="The Powder Kegs adoration of complex design and big booms culminated in weapon designs that contrast with those traditionally of the Workshop."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="The late Powder Kegs, bless their souls, had a motto: If a weapon ain't got kick, it just ain't worth it.&quot;&quot;"/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="103,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185">
+        	<Run Text="Powder Keg "/>
+        	<Run Text="Hunter Badge"/>
+        </TextBlock>
+    </Grid>
+</Page>

@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="BloodborneApp.FiringBadge"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="225" Margin="81,148,0,0" VerticalAlignment="Top" Width="222" Source="/Assets/firing_hammer_badge.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="&quot;Badge crafted by the Oto Workshop, precursor to the workshop of the heretical Powder Kegs."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="The Powder Kegs were driven by singular ideas, and crafted strange weapons of great intricancy."/>
+            	<LineBreak/>
+            	<Run Text="It is clear that the philosophy of the Powder Kegs was already established at this time.&quot;"/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="113,108,0,0" TextWrapping="Wrap" Text="Firing Hammer Badge" VerticalAlignment="Top" Width="166"/>
+    </Grid>
+</Page>

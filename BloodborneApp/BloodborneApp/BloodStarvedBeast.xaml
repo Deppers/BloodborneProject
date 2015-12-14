@@ -1,0 +1,84 @@
+﻿<Page
+    x:Class="BloodborneApp.BloodStarvedBeast"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="190" Margin="16,156,0,0" VerticalAlignment="Top" Width="333" Source="/Assets/blood-starved_beast_boss.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="Blood-Starved Beast, also known as the Thirsty Beast, is an optional boss in Bloodborne. This malformed beast has had all of the skin peeled off its back, making for a truly gruesome sight. Capable of extremely quick and agile attacks, this erratic and unpredictable enemy is a truly formidable foe, whether you choose to face it alone or with other Hunters at your side."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Blood-starved Beast Information"/>
+            	<LineBreak/>
+            	<Run Text="You can summon Alfred for this fight. As you descend towards the chapel on the first staircase you will find a note on the right hand side saying that you can summon him. Use the Beckoning Bell on the note and he will be summoned."/>
+            	<LineBreak/>
+            	<Run Text="Alfred does not fill a summon slot. If he is summoned first, it is still possible to summon two players, allowing you to tackle this boss with a four-man team."/>
+            	<LineBreak/>
+            	<Run Text="This boss fight is optional, but it is necessary if you wish to do any of the Pthumeru Chalices, Hintertomb Chalices or accessing Hypogean Gaol for befriending Djura."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Locations"/>
+            	<LineBreak/>
+            	<Run Text="Old Yharnam in a ruined church at the bottom of the area."/>
+            	<LineBreak/>
+            	<Run Text="Hintertomb Chalice (Final Boss)"/>
+            	<LineBreak/>
+            	<Run Text="Ailing Loran Chalice (Layer 2 Boss)"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Drops"/>
+            	<LineBreak/>
+            	<Run Text="Blood Echoes: NG (6,600), NG+ (62,747), NG++ (69,021), NG+3 (78,433), NG+6 and so on (156,866)"/>
+            	<LineBreak/>
+            	<Run Text="Pthumeru Chalice"/>
+            	<LineBreak/>
+            	<Run Text="Lower Hintertomb Chalice (when fought in Hintertomb Chalice)"/>
+            	<LineBreak/>
+            	<Run Text="Ailing Loran Root Chalice (when fought in Ailing Loran Chalice)"/>
+            	<LineBreak/>
+            	<Run Text="Gain 1 Insight for finding the boss and 3 Insight for killing it."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Combat Information"/>
+            	<LineBreak/>
+            	<Run Text="Weak to Fire Damage."/>
+            	<LineBreak/>
+            	<Run Text="Strong against Arcane and Bolt damage."/>
+            	<LineBreak/>
+            	<Run Text="For the fight make sure you have several Antidotes on your quick slot. (If you're out of antidotes, there are 3 in the back of the altar in the boss room )"/>
+            	<LineBreak/>
+            	<Run Text="In all three stages, the Blood-starved Beast can be parried."/>
+            	<LineBreak/>
+            	<Run Text="Blood-starved Beast is classified as a beast so anything that increases damage vs. Beasts will increase damage against it."/>
+            	<LineBreak/>
+            	<Run Text="All of the Blood-starved Beast's attacks are focused in front of him and he has no side attacks. Staying to his side/behind will always produce an opening."/>
+            	<LineBreak/>
+            	<Run Text="In its second and third phase, the Blood-starved Beast tends to attack in a succession of 5 or 6 swipes. These swipes have bad tracking and the boss will continue attacking in the general direction even if the hunter dodges behind it. Take advantage of this and retaliate while it whiffs."/>
+            	<LineBreak/>
+            	<Run Text="The Blood-starved Beast is susceptible to Pungent Blood Cocktails, which will distract it for a short time, leaving it open to attacks."/>
+            	<LineBreak/>
+            	<Run Text="Using the Black Church Set is a good idea as it has a good deal of Slow Poison RES."/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="129,108,0,0" TextWrapping="Wrap" Text="Blood Starved Beast" VerticalAlignment="Top"/>
+    </Grid>
+</Page>

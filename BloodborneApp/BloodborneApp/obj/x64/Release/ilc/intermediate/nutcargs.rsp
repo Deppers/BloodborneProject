@@ -1,0 +1,9 @@
+/ignoreAccessChecks
+/metadataFile "C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\obj\x64\Release\ilc\intermediate\ILTransformed\BloodborneApp.metadata"
+/gvmAssemblyName "System.Private.CoreLib"
+/o
+/sharedGenerics
+/ilmergeinfo "C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\obj\x64\Release\ilc\intermediate\ILTransformed\BloodborneApp.csv"
+/sharedGenericsMode StandardHeuristics
+/in "C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\obj\x64\Release\ilc\intermediate\ILTransformed\BloodborneApp.ilexe"
+/out "C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\obj\x64\Release\ilc\intermediate\MDIL\BloodborneApp.mdilexe"

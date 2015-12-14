@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="BloodborneApp.WheelBadge"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="225" Margin="81,148,0,0" VerticalAlignment="Top" Width="222" Source="/Assets/Wheel_Hunter_badge.png"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="&quot;Martyr Logarius led a band of Executioners, and this badge was crafted at their dedicated workshop. The Wheel symbolizes righteous destiny."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Their workshop was a secretive enclave of mystical beliefs and heady fanaticism which served as the backbone of the Executioners' unique brand of justice.&quot;"/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="121,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166">
+        	<Run Text="Wheel"/>
+        	<Run Text=" Hunter Badge"/>
+        </TextBlock>
+    </Grid>
+</Page>
+

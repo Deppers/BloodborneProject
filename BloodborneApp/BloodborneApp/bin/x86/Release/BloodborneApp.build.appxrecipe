@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-T3HEI6C</Machine>
+    <WindowsUser>Deppers</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>67b7ddca-31ee-497c-9686-d51b2ea8c88b</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\obj\x86\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\amygdala_boss.jpg">
+      <PackagePath>Assets\amygdala_boss.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\bbWallpaper.jpg">
+      <PackagePath>Assets\bbWallpaper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\beast_claw.jpg">
+      <PackagePath>Assets\beast_claw.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\blade_of_mercy.jpg">
+      <PackagePath>Assets\blade_of_mercy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\blood-starved_beast_boss.jpg">
+      <PackagePath>Assets\blood-starved_beast_boss.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\bossWallpaper.jpg">
+      <PackagePath>Assets\bossWallpaper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\burial_blade.jpg">
+      <PackagePath>Assets\burial_blade.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\cainhurst_badge.jpg">
+      <PackagePath>Assets\cainhurst_badge.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\celestial_emissary_boss.jpg">
+      <PackagePath>Assets\celestial_emissary_boss.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\chikage.jpg">
+      <PackagePath>Assets\chikage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\cleric_beast_boss.jpg">
+      <PackagePath>Assets\cleric_beast_boss.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\Cosmic_Eye_Watcher_Badge.png">
+      <PackagePath>Assets\Cosmic_Eye_Watcher_Badge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\crow_hunter_badge.jpg">
+      <PackagePath>Assets\crow_hunter_badge.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\darkbeast_paarl_boss.jpg">
+      <PackagePath>Assets\darkbeast_paarl_boss.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\ebrietas_boss.jpg">
+      <PackagePath>Assets\ebrietas_boss.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\father_gascoigne_boss.jpg">
+      <PackagePath>Assets\father_gascoigne_boss.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\firing_hammer_badge.jpg">
+      <PackagePath>Assets\firing_hammer_badge.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\gehrman_boss.jpg">
+      <PackagePath>Assets\gehrman_boss.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\hunter_axe.jpg">
+      <PackagePath>Assets\hunter_axe.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\item.jpg">
+      <PackagePath>Assets\item.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\kirkhammer.jpg">
+      <PackagePath>Assets\kirkhammer.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\logarius_boss.jpg">
+      <PackagePath>Assets\logarius_boss.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\logarius_wheel.jpg">
+      <PackagePath>Assets\logarius_wheel.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\ludwig.jpg">
+      <PackagePath>Assets\ludwig.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\menuWallpaper.png">
+      <PackagePath>Assets\menuWallpaper.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\mergos_wet_nurse_boss.jpg">
+      <PackagePath>Assets\mergos_wet_nurse_boss.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\micolash_boss.jpg">
+      <PackagePath>Assets\micolash_boss.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\moon_presense_boss.jpg">
+      <PackagePath>Assets\moon_presense_boss.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\Old_Hunter_Badge.png">
+      <PackagePath>Assets\Old_Hunter_Badge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\powder_keg_hunter_badge.jpg">
+      <PackagePath>Assets\powder_keg_hunter_badge.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\radiant_sword_hunter_badge.jpg">
+      <PackagePath>Assets\radiant_sword_hunter_badge.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\reiterpallasch.jpg">
+      <PackagePath>Assets\reiterpallasch.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\rifle_spear.jpg">
+      <PackagePath>Assets\rifle_spear.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\rom_boss.jpg">
+      <PackagePath>Assets\rom_boss.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\saw_cleaver.jpg">
+      <PackagePath>Assets\saw_cleaver.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\saw_hunter_badge.jpg">
+      <PackagePath>Assets\saw_hunter_badge.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\saw_spear.jpg">
+      <PackagePath>Assets\saw_spear.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\Shadow_of_Yharnam.jpg">
+      <PackagePath>Assets\Shadow_of_Yharnam.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\spark_hunter_badge.jpg">
+      <PackagePath>Assets\spark_hunter_badge.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\stake_driver.jpg">
+      <PackagePath>Assets\stake_driver.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\sword_hunter_badge.jpg">
+      <PackagePath>Assets\sword_hunter_badge.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\the_one_reborn_boss.jpg">
+      <PackagePath>Assets\the_one_reborn_boss.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\threaded_cane.jpg">
+      <PackagePath>Assets\threaded_cane.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\Tonitrus.jpg">
+      <PackagePath>Assets\Tonitrus.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\vicar_amelia.jpg">
+      <PackagePath>Assets\vicar_amelia.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\weaponWallpaper.jpg">
+      <PackagePath>Assets\weaponWallpaper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\Wheel_Hunter_Badge.png">
+      <PackagePath>Assets\Wheel_Hunter_Badge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\Assets\witch_of_hemwick_boss.jpg">
+      <PackagePath>Assets\witch_of_hemwick_boss.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\BloodborneApp.dll">
+      <PackagePath>BloodborneApp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\BloodborneApp.exe">
+      <PackagePath>BloodborneApp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\x86\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23231.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x64\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x86\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

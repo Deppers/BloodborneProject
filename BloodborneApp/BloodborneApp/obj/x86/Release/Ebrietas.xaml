@@ -1,0 +1,71 @@
+﻿<Page
+    x:Class="BloodborneApp.Ebrietas"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:ConnectionId='1' x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top"                     />
+        <Image x:ConnectionId='2' x:Name="image" HorizontalAlignment="Left" Height="188" Margin="16,165,0,0" VerticalAlignment="Top" Width="343" Source="/Assets/ebrietas_boss.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:ConnectionId='4' x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="Ebrietas, the Daughter of The Cosmos is a boss and a &quot;Great One&quot; in Bloodborne."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Ebrietas, Daughter of The Cosmos Information"/>
+            	<LineBreak/>
+            	<Run Text="Gain 3 insight for finding the boss and 3 Insight for killing her."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Location"/>
+            	<LineBreak/>
+            	<Run Text="Located in the Altar of Despair in Upper Cathedral Ward, found by breaking the window in the Celestial Emissary boss room (Lumenflower Gardens) and taking the elevator down."/>
+            	<LineBreak/>
+            	<Run Text="Also located in Great Isz Chalice"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Drops"/>
+            	<LineBreak/>
+            	<Run Text="Blood Echoes: NG (28,800), NG+ (121,076), NG++ (133,183), NG+3 (151,344), NG+7 and so on (302,688)"/>
+            	<LineBreak/>
+            	<Run Text="[no NG+6 source to cross reference]"/>
+            	<LineBreak/>
+            	<Run Text="Great Isz Chalice"/>
+            	<LineBreak/>
+            	<Run Text="Isz Root Chalice (when fought in Great Isz Chalice)"/>
+            	<LineBreak/>
+            	<Run Text="Triangular Arcane Damp Blood Gem (when fought in Root Chalices)"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Combat Information"/>
+            	<LineBreak/>
+            	<Run Text="Attacking from the sides or behind is difficult as her turn speed is high and her attacks sweep very wide. It is however possible to get stuck between her two tails where you are relatively safe against attacks. Repetitious strategies are undermined by her wide move set and unpredictable nature."/>
+            	<LineBreak/>
+            	<Run Text="Having sufficient HP to survive her attacks and a weapon set up specifically to fight her (bolt, bonus kin damage, etc.) goes a long way."/>
+            	<LineBreak/>
+            	<Run Text="Attacking her chest is a decent strategy, as her attacks are telegraphed more (some will even miss if you're too close to her). Learn how many hits you can get in before you should dodge away. She is also less likely to charge attack if you're close enough. The belly slam attack, which is more common should you focus her chest, is a great opportunity to put some damage into her."/>
+            	<LineBreak/>
+            	<Run Text="Her laser beam attack is avoidable by running in a large circle around her."/>
+            	<LineBreak/>
+            	<Run Text="Her head is the weak point in the fight and will take the bonus damage, an effective strategy is to use the Cannon in the fight and shoot her head. Then she will drop down, allowing for a Visceral Attack. Immediately after the completion of the visceral attack you can charge up an attack with a long weapon. She will not recover from the Visceral Attack in time and the full R2 will make her available to other Visceral. Alternatively, hit her head with Burial Blade charge attack."/>
+            	<LineBreak/>
+            	<Run Text="If you do not have the Cannon you can still lure some of her attacks to lower the head and have a clear attack. However, this strategy is risky because sometimes she'll do a charge attack, with terrible consequences for your HP (and is difficult to dodge properly)."/>
+            	<LineBreak/>
+            	<Run Text="It is best to just dodge her attacks and stand behind her or to her side, then hit her. Repeat this procedure with a Bolt Paper imbued weapon and she will be down in no time."/>
+            	<LineBreak/>
+            	<Run Text="Like most kin she is noticeably weak to thrust damage, combined with the above tactic of bolt paper works wonders under the Grand Cathedral and can kill in less than one bolt paper as damage opens her to successive visceral attacks."/>
+            	<LineBreak/>
+            	<Run/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="62,125,0,0" TextWrapping="Wrap" Text="Ebrietas, the Daughter of The Cosmos " VerticalAlignment="Top"/>
+    </Grid>
+</Page>
+

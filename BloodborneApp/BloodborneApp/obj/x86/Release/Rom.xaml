@@ -1,0 +1,109 @@
+﻿<Page
+    x:Class="BloodborneApp.Rom"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:ConnectionId='1' x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top"                     />
+        <Image x:ConnectionId='2' x:Name="image" HorizontalAlignment="Left" Height="203" Margin="11,154,0,0" VerticalAlignment="Top" Width="344" Source="/Assets/rom_boss.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:ConnectionId='4' x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="Rom, the Vacuous Spider is a Great One Boss in Bloodborne."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Rom, the Vacuous Spider Information"/>
+            	<LineBreak/>
+            	<Run Text="Gain 2 Insight for finding the boss and 2 Insight for killing her. You also gain 2 Insight from talking to Master Willem in the rocking chair."/>
+            	<LineBreak/>
+            	<Run Text="Gain the Eye rune for killing Master Willem"/>
+            	<LineBreak/>
+            	<Run Text="Defeating Rom causes the Lesser Amygdala in the Cathedral Ward and other areas to permanently become visible and triggers the Blood Moon."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Location"/>
+            	<LineBreak/>
+            	<Run Text="Moonside Lake, accessed from the Lunarium in Byrgenwerth College."/>
+            	<LineBreak/>
+            	<Run Text="She can also be found in Lower Pthumeru Chalice."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Lore"/>
+            	<LineBreak/>
+            	<Run Text="Miyazaki's interview confirms that Rom is in fact female. In the interview with Hidetaka Miyazaki found in the Official Guide, Mizayaki was asked what his favorite boss was. His answer was Rom. But that in itself, while interesting, was not very striking. However the specifics of his response were… unexpected"/>
+            	<LineBreak/>
+            	<Run Text="A note within the College reads, &quot;The Byrgenwerth spider hides all manner of rituals, certain to reveal nothing, for true enlightenment need not be shared.&quot; The fact that Rom was enlightened implies that Rom was a human being at one point. The scholars of Byrgenwerth see this as enlightenment although the truth is quite a bit more tragic."/>
+            	<LineBreak/>
+            	<Run Text="A quote from Micolash also implies that Rom was once human, or at least not a Great One: &quot;Ahh, Kos, or some say Kosm... Do you hear our prayers?&quot; &quot;As you once did for the vacuous Rom, grant us eyes, grant us eyes. Plant eyes on our brains, to cleanse our beastly idiocy.&quot;"/>
+            	<LineBreak/>
+            	<Run Text="It seems that the title &quot;The Vacuous Spider&quot; is not literal but more symbolic. The symbol spider represents mystery and growth. While Rom does appear to have spider minions, she does not have physiological characteristics similar to a spider. In fact, if we are to compare her to another life form, she has physical characteristics similar to a caterpillar. Many item descriptions heavily talk about metamorphosis and evolution perhaps Rom is in the early stage of metamorphosis and has yet to achieve her final form? From the Caryll rune Clockwise Metamorphosis and the Anti-clockwise Metamorphosis: &quot;The discovery of blood made their dream of evolution a reality. Metamorphosis, and the excesses and deviation that followed. were only the beginning.&quot;"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Drops"/>
+            	<LineBreak/>
+            	<Run Text="Kin Coldblood (12)"/>
+            	<LineBreak/>
+            	<Run Text="Blood Echoes NG (24860), NG+ (114628), NG++ (126090), NG+3 (143284), NG+8 (286568)"/>
+            	<LineBreak/>
+            	<Run Text="The spiders will drop Madman's Knowledge on occasion."/>
+            	<LineBreak/>
+            	<Run Text="Lower Pthumeru Root Chalice (when in Lower Pthumeru Chalice)"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Combat Information"/>
+            	<LineBreak/>
+            	<Run Text="Shaman Bone Blades are somewhat effective when used on her spiderlings since it will make the rest of the spiderlings and sometimes Rom herself target the turned spiderling."/>
+            	<LineBreak/>
+            	<Run Text="Weak to Arcane."/>
+            	<LineBreak/>
+            	<Run Text="Arcane Damage Reduction Attire such as the Tomb Prospectors' or greater are greatly helpful against Rom's Arcane attacks."/>
+            	<LineBreak/>
+            	<Run Text="When battling alone against Rom and their many spiders, decimate the lesser enemy carefully and only attack with meele attacks when there is no danger."/>
+            	<LineBreak/>
+            	<Run Text="Minor weakness to Fire and Bolt Damage."/>
+            	<LineBreak/>
+            	<Run Text="Strong against Physical damage. The head is particularly resistant, and it is immune to Poison."/>
+            	<LineBreak/>
+            	<Run Text="Unlike the souls games, in Bloodborne there will be no fog for the host of the world before a boss fight during your first encounter, so if you planning on summoning help, keep in mind that the cooperators will be blocked by the fog even during first try until the beckoner has started the fight (i.e. the boss's health bar shows in your screen)."/>
+            	<LineBreak/>
+            	<Run Text="Rom takes damage during teleportation, so use strong attacks (R2) for additional damage."/>
+            	<LineBreak/>
+            	<Run Text="Boss teleports 2 times after taking enough damage, also kill the smaller spiders first as they have the ability to catch you in an stunlock basically killing you. After first teleport the boss will start using magic like Ice Meteors from above and from the ground, run toward the boss to avoid the meteor like one and back off the boss to avoid the ones coming from the ground. At the last stage the boss will start doing moves that can hurt your character, also can explode."/>
+            	<LineBreak/>
+            	<Run Text="Run towards the boss with a left slant, and the ice attack will run along side you, missing completely. An easy strategy is to bait the ice attack, run towards the boss and to the left, hit once, run away, and repeat."/>
+            	<LineBreak/>
+            	<Run Text="If you're playing in Co-op, then take a flank each when you come to attack Rom directly and let loose with fire and bolt attacks. If Rom starts to turn and track one of you, the boss' rear is just as weak as the sides. It is only the head that has the high physical resistance."/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="109,110,0,0" TextWrapping="Wrap" Text="Rom The Vacous Spider" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
+

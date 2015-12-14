@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{86D40AC1-9D40-47B9-BF63-F0734D1A86B5}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BloodborneApp</RootNamespace>
+    <AssemblyName>BloodborneApp</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>BloodborneApp_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <PackageCertificateThumbprint>4D09946CC8FEEAB974DE800C19A367DF132F8B3F</PackageCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="BloodborneApp_StoreKey.pfx" />
+    <None Include="project.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Amygdala.xaml.cs">
+      <DependentUpon>Amygdala.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BeastClaw.xaml.cs">
+      <DependentUpon>BeastClaw.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BladeOfMercy.xaml.cs">
+      <DependentUpon>BladeOfMercy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BloodStarvedBeast.xaml.cs">
+      <DependentUpon>BloodStarvedBeast.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Bosses.xaml.cs">
+      <DependentUpon>Bosses.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BurialBlade.xaml.cs">
+      <DependentUpon>BurialBlade.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CainhurstBadge.xaml.cs">
+      <DependentUpon>CainhurstBadge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CelestialEmissary.xaml.cs">
+      <DependentUpon>CelestialEmissary.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chikage.xaml.cs">
+      <DependentUpon>Chikage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ClericBeast.xaml.cs">
+      <DependentUpon>ClericBeast.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CosmicBadge.xaml.cs">
+      <DependentUpon>CosmicBadge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CrowBadge.xaml.cs">
+      <DependentUpon>CrowBadge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DarkbeastPaarl.xaml.cs">
+      <DependentUpon>DarkbeastPaarl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ebrietas.xaml.cs">
+      <DependentUpon>Ebrietas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FatherGascoigne.xaml.cs">
+      <DependentUpon>FatherGascoigne.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FiringBadge.xaml.cs">
+      <DependentUpon>FiringBadge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Gehrman.xaml.cs">
+      <DependentUpon>Gehrman.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HunterAxe.xaml.cs">
+      <DependentUpon>HunterAxe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="KeyItems.xaml.cs">
+      <DependentUpon>KeyItems.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kirkhammer.xaml.cs">
+      <DependentUpon>Kirkhammer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LogariusWheel.xaml.cs">
+      <DependentUpon>LogariusWheel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LudwigsHolyBlade.xaml.cs">
+      <DependentUpon>LudwigsHolyBlade.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MartyrLorgarius.xaml.cs">
+      <DependentUpon>MartyrLorgarius.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.xaml.cs">
+      <DependentUpon>Menu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mergo.xaml.cs">
+      <DependentUpon>Mergo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Micolash.xaml.cs">
+      <DependentUpon>Micolash.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MoonPresence.xaml.cs">
+      <DependentUpon>MoonPresence.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OldHunterBadge.xaml.cs">
+      <DependentUpon>OldHunterBadge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OneReborn.xaml.cs">
+      <DependentUpon>OneReborn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PowderKHBadge.xaml.cs">
+      <DependentUpon>PowderKHBadge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RadiantBadge.xaml.cs">
+      <DependentUpon>RadiantBadge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reiterspallach.xaml.cs">
+      <DependentUpon>Reiterspallach.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RifleSpear.xaml.cs">
+      <DependentUpon>RifleSpear.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rom.xaml.cs">
+      <DependentUpon>Rom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SawBadge.xaml.cs">
+      <DependentUpon>SawBadge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SawCleaver.xaml.cs">
+      <DependentUpon>SawCleaver.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SawSpear.xaml.cs">
+      <DependentUpon>SawSpear.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ShadowOfYharnam.xaml.cs">
+      <DependentUpon>ShadowOfYharnam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SparkBadge.xaml.cs">
+      <DependentUpon>SparkBadge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StakeDriver.xaml.cs">
+      <DependentUpon>StakeDriver.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SwordHunterBadge.xaml.cs">
+      <DependentUpon>SwordHunterBadge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ThreadedCane.xaml.cs">
+      <DependentUpon>ThreadedCane.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tonitrus.xaml.cs">
+      <DependentUpon>Tonitrus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UncannyLost.xaml.cs">
+      <DependentUpon>UncannyLost.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VicarAmelia.xaml.cs">
+      <DependentUpon>VicarAmelia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Weapons.xaml.cs">
+      <DependentUpon>Weapons.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WheelBadge.xaml.cs">
+      <DependentUpon>WheelBadge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WitchOfHemwick.xaml.cs">
+      <DependentUpon>WitchOfHemwick.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="BloodborneApp_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\amygdala_boss.jpg" />
+    <Content Include="Assets\bbWallpaper.jpg" />
+    <Content Include="Assets\beast_claw.jpg" />
+    <Content Include="Assets\blade_of_mercy.jpg" />
+    <Content Include="Assets\blood-starved_beast_boss.jpg" />
+    <Content Include="Assets\bossWallpaper.jpg" />
+    <Content Include="Assets\burial_blade.jpg" />
+    <Content Include="Assets\cainhurst_badge.jpg" />
+    <Content Include="Assets\celestial_emissary_boss.jpg" />
+    <Content Include="Assets\chikage.jpg" />
+    <Content Include="Assets\cleric_beast_boss.jpg" />
+    <Content Include="Assets\Cosmic_Eye_Watcher_Badge.png" />
+    <Content Include="Assets\crow_hunter_badge.jpg" />
+    <Content Include="Assets\darkbeast_paarl_boss.jpg" />
+    <Content Include="Assets\ebrietas_boss.jpg" />
+    <Content Include="Assets\father_gascoigne_boss.jpg" />
+    <Content Include="Assets\firing_hammer_badge.jpg" />
+    <Content Include="Assets\gehrman_boss.jpg" />
+    <Content Include="Assets\hunter_axe.jpg" />
+    <Content Include="Assets\item.jpg" />
+    <Content Include="Assets\kirkhammer.jpg" />
+    <Content Include="Assets\logarius_boss.jpg" />
+    <Content Include="Assets\logarius_wheel.jpg" />
+    <Content Include="Assets\ludwig.jpg" />
+    <Content Include="Assets\menuWallpaper.png" />
+    <Content Include="Assets\mergos_wet_nurse_boss.jpg" />
+    <Content Include="Assets\micolash_boss.jpg" />
+    <Content Include="Assets\moon_presense_boss.jpg" />
+    <Content Include="Assets\Old_Hunter_Badge.png" />
+    <Content Include="Assets\powder_keg_hunter_badge.jpg" />
+    <Content Include="Assets\radiant_sword_hunter_badge.jpg" />
+    <Content Include="Assets\reiterpallasch.jpg" />
+    <Content Include="Assets\rifle_spear.jpg" />
+    <Content Include="Assets\rom_boss.jpg" />
+    <Content Include="Assets\saw_cleaver.jpg" />
+    <Content Include="Assets\saw_hunter_badge.jpg" />
+    <Content Include="Assets\saw_spear.jpg" />
+    <Content Include="Assets\Shadow_of_Yharnam.jpg" />
+    <Content Include="Assets\spark_hunter_badge.jpg" />
+    <Content Include="Assets\stake_driver.jpg" />
+    <Content Include="Assets\sword_hunter_badge.jpg" />
+    <Content Include="Assets\the_one_reborn_boss.jpg" />
+    <Content Include="Assets\threaded_cane.jpg" />
+    <Content Include="Assets\Tonitrus.jpg" />
+    <Content Include="Assets\vicar_amelia.jpg" />
+    <Content Include="Assets\weaponWallpaper.jpg" />
+    <Content Include="Assets\Wheel_Hunter_Badge.png" />
+    <Content Include="Assets\witch_of_hemwick_boss.jpg" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Amygdala.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BeastClaw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BladeOfMercy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BloodStarvedBeast.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Bosses.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BurialBlade.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CainhurstBadge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CelestialEmissary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chikage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ClericBeast.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CosmicBadge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CrowBadge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DarkbeastPaarl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ebrietas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FatherGascoigne.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FiringBadge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Gehrman.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HunterAxe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="KeyItems.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kirkhammer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LogariusWheel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LudwigsHolyBlade.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MartyrLorgarius.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Mergo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Micolash.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MoonPresence.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OldHunterBadge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OneReborn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PowderKHBadge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RadiantBadge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Reiterspallach.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RifleSpear.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rom.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SawBadge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SawCleaver.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SawSpear.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ShadowOfYharnam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SparkBadge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StakeDriver.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SwordHunterBadge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ThreadedCane.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tonitrus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UncannyLost.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VicarAmelia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Weapons.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WheelBadge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WitchOfHemwick.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

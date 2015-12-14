@@ -1,0 +1,60 @@
+﻿<Page
+    x:Class="BloodborneApp.BladeOfMercy"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Image x:ConnectionId='1' x:Name="image" HorizontalAlignment="Left" Height="135" Margin="125,130,0,0" VerticalAlignment="Top" Width="135" Source="/Assets/Blade_Of_Mercy.jpg"/>
+        <Button x:ConnectionId='2' x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="274,20,0,0" VerticalAlignment="Top"                     />
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="31,391,0,0" VerticalAlignment="Top" Width="303">
+            <TextBlock x:ConnectionId='4' x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="The Blade of Mercy in Bloodborne is a Trick Weapon. There are 3 versions of this weapon: Normal, Uncanny and Lost. The only known differences being the Gem Imprints and the locations in which they are found."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="&quot;A special trick weapon passed down among hunters of hunters. One of the oldest weapons of the workshop."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Splits into two when activated. The weapon's warped blades are forged with siderite, a rare mineral of the heavens. Most effective swift attacks,such as after a quick-stepping.&quot;"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Blade of Mercy Information"/>
+            	<LineBreak/>
+            	<Run Text="Transforms between a short sword and a pair of daggers."/>
+            	<LineBreak/>
+            	<Run Text="Requires Blood Stone Shards and Blood Echoes to fully upgrade."/>
+            	<LineBreak/>
+            	<Run Text="To perform a leap attack, input forward on the left stick as you press R2."/>
+            	<LineBreak/>
+            	<Run Text="To perform a transformation attack, press L1 while performing another attack or dodge."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Location"/>
+            	<LineBreak/>
+            	<Run Text="Normal"/>
+            	<LineBreak/>
+            	<Run Text="Can be purchased from the Messengers for 40000 echoes after obtaining the Crow Hunter Badge from Eileen the Crow's quest line (or from her body should she die)."/>
+            	<LineBreak/>
+            	<Run Text="Killing Eileen is also a way to get the weapon really early on in the game."/>
+            	<LineBreak/>
+            	<Run/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="145,86,0,0" TextWrapping="Wrap" Text="Blade Of Mercy" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
+

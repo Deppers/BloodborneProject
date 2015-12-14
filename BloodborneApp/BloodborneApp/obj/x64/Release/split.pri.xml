@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="11078Deppers.BloodborneInfoApp" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Scale>200</Scale>
+			<TargetSize>24</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="Amygdala.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Amygdala.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="App.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ApplicationInsights.config" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/ApplicationInsights.config">
+				<Candidate type="Path">
+					<Value>ApplicationInsights.config</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="BeastClaw.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/BeastClaw.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="BladeOfMercy.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/BladeOfMercy.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="BloodborneApp.xr.xml" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/BloodborneApp.xr.xml">
+				<Candidate type="Path">
+					<Value>BloodborneApp.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="BloodStarvedBeast.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/BloodStarvedBeast.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Bosses.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Bosses.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="BurialBlade.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/BurialBlade.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CainhurstBadge.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/CainhurstBadge.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CelestialEmissary.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/CelestialEmissary.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Chikage.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Chikage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClericBeast.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/ClericBeast.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CosmicBadge.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/CosmicBadge.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CrowBadge.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/CrowBadge.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DarkbeastPaarl.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/DarkbeastPaarl.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Ebrietas.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Ebrietas.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="FatherGascoigne.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/FatherGascoigne.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="FiringBadge.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/FiringBadge.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Gehrman.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Gehrman.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HunterAxe.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/HunterAxe.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="KeyItems.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/KeyItems.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Kirkhammer.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Kirkhammer.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LogariusWheel.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/LogariusWheel.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LudwigsHolyBlade.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/LudwigsHolyBlade.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MartyrLorgarius.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/MartyrLorgarius.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Menu.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Menu.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Mergo.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Mergo.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Micolash.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Micolash.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MoonPresence.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/MoonPresence.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="OldHunterBadge.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/OldHunterBadge.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="OneReborn.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/OneReborn.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PowderKHBadge.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/PowderKHBadge.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="RadiantBadge.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/RadiantBadge.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Reiterspallach.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Reiterspallach.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="RifleSpear.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/RifleSpear.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Rom.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Rom.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SawBadge.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/SawBadge.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SawCleaver.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/SawCleaver.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SawSpear.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/SawSpear.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ShadowOfYharnam.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/ShadowOfYharnam.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SparkBadge.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/SparkBadge.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="StakeDriver.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/StakeDriver.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SwordHunterBadge.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/SwordHunterBadge.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ThreadedCane.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/ThreadedCane.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Tonitrus.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Tonitrus.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="UncannyLost.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/UncannyLost.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="VicarAmelia.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/VicarAmelia.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Weapons.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Weapons.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WheelBadge.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/WheelBadge.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WitchOfHemwick.xbf" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/WitchOfHemwick.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="amygdala_boss.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/amygdala_boss.jpg">
+					<Candidate type="Path">
+						<Value>Assets\amygdala_boss.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="bbWallpaper.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/bbWallpaper.jpg">
+					<Candidate type="Path">
+						<Value>Assets\bbWallpaper.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="beast_claw.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/beast_claw.jpg">
+					<Candidate type="Path">
+						<Value>Assets\beast_claw.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="blade_of_mercy.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/blade_of_mercy.jpg">
+					<Candidate type="Path">
+						<Value>Assets\blade_of_mercy.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="blood-starved_beast_boss.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/blood-starved_beast_boss.jpg">
+					<Candidate type="Path">
+						<Value>Assets\blood-starved_beast_boss.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="bossWallpaper.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/bossWallpaper.jpg">
+					<Candidate type="Path">
+						<Value>Assets\bossWallpaper.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="burial_blade.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/burial_blade.jpg">
+					<Candidate type="Path">
+						<Value>Assets\burial_blade.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="cainhurst_badge.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/cainhurst_badge.jpg">
+					<Candidate type="Path">
+						<Value>Assets\cainhurst_badge.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="celestial_emissary_boss.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/celestial_emissary_boss.jpg">
+					<Candidate type="Path">
+						<Value>Assets\celestial_emissary_boss.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="chikage.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/chikage.jpg">
+					<Candidate type="Path">
+						<Value>Assets\chikage.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="cleric_beast_boss.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/cleric_beast_boss.jpg">
+					<Candidate type="Path">
+						<Value>Assets\cleric_beast_boss.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Cosmic_Eye_Watcher_Badge.png" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/Cosmic_Eye_Watcher_Badge.png">
+					<Candidate type="Path">
+						<Value>Assets\Cosmic_Eye_Watcher_Badge.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="crow_hunter_badge.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/crow_hunter_badge.jpg">
+					<Candidate type="Path">
+						<Value>Assets\crow_hunter_badge.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="darkbeast_paarl_boss.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/darkbeast_paarl_boss.jpg">
+					<Candidate type="Path">
+						<Value>Assets\darkbeast_paarl_boss.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ebrietas_boss.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/ebrietas_boss.jpg">
+					<Candidate type="Path">
+						<Value>Assets\ebrietas_boss.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="father_gascoigne_boss.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/father_gascoigne_boss.jpg">
+					<Candidate type="Path">
+						<Value>Assets\father_gascoigne_boss.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="firing_hammer_badge.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/firing_hammer_badge.jpg">
+					<Candidate type="Path">
+						<Value>Assets\firing_hammer_badge.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="gehrman_boss.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/gehrman_boss.jpg">
+					<Candidate type="Path">
+						<Value>Assets\gehrman_boss.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="hunter_axe.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/hunter_axe.jpg">
+					<Candidate type="Path">
+						<Value>Assets\hunter_axe.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="item.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/item.jpg">
+					<Candidate type="Path">
+						<Value>Assets\item.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="kirkhammer.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/kirkhammer.jpg">
+					<Candidate type="Path">
+						<Value>Assets\kirkhammer.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logarius_boss.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/logarius_boss.jpg">
+					<Candidate type="Path">
+						<Value>Assets\logarius_boss.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logarius_wheel.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/logarius_wheel.jpg">
+					<Candidate type="Path">
+						<Value>Assets\logarius_wheel.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ludwig.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/ludwig.jpg">
+					<Candidate type="Path">
+						<Value>Assets\ludwig.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="menuWallpaper.png" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/menuWallpaper.png">
+					<Candidate type="Path">
+						<Value>Assets\menuWallpaper.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="mergos_wet_nurse_boss.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/mergos_wet_nurse_boss.jpg">
+					<Candidate type="Path">
+						<Value>Assets\mergos_wet_nurse_boss.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="micolash_boss.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/micolash_boss.jpg">
+					<Candidate type="Path">
+						<Value>Assets\micolash_boss.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="moon_presense_boss.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/moon_presense_boss.jpg">
+					<Candidate type="Path">
+						<Value>Assets\moon_presense_boss.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Old_Hunter_Badge.png" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/Old_Hunter_Badge.png">
+					<Candidate type="Path">
+						<Value>Assets\Old_Hunter_Badge.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="powder_keg_hunter_badge.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/powder_keg_hunter_badge.jpg">
+					<Candidate type="Path">
+						<Value>Assets\powder_keg_hunter_badge.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="radiant_sword_hunter_badge.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/radiant_sword_hunter_badge.jpg">
+					<Candidate type="Path">
+						<Value>Assets\radiant_sword_hunter_badge.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="reiterpallasch.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/reiterpallasch.jpg">
+					<Candidate type="Path">
+						<Value>Assets\reiterpallasch.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="rifle_spear.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/rifle_spear.jpg">
+					<Candidate type="Path">
+						<Value>Assets\rifle_spear.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="rom_boss.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/rom_boss.jpg">
+					<Candidate type="Path">
+						<Value>Assets\rom_boss.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="saw_cleaver.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/saw_cleaver.jpg">
+					<Candidate type="Path">
+						<Value>Assets\saw_cleaver.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="saw_hunter_badge.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/saw_hunter_badge.jpg">
+					<Candidate type="Path">
+						<Value>Assets\saw_hunter_badge.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="saw_spear.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/saw_spear.jpg">
+					<Candidate type="Path">
+						<Value>Assets\saw_spear.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Shadow_of_Yharnam.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/Shadow_of_Yharnam.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Shadow_of_Yharnam.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="spark_hunter_badge.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/spark_hunter_badge.jpg">
+					<Candidate type="Path">
+						<Value>Assets\spark_hunter_badge.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="stake_driver.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/stake_driver.jpg">
+					<Candidate type="Path">
+						<Value>Assets\stake_driver.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/StoreLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="sword_hunter_badge.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/sword_hunter_badge.jpg">
+					<Candidate type="Path">
+						<Value>Assets\sword_hunter_badge.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="the_one_reborn_boss.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/the_one_reborn_boss.jpg">
+					<Candidate type="Path">
+						<Value>Assets\the_one_reborn_boss.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="threaded_cane.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/threaded_cane.jpg">
+					<Candidate type="Path">
+						<Value>Assets\threaded_cane.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Tonitrus.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/Tonitrus.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Tonitrus.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="vicar_amelia.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/vicar_amelia.jpg">
+					<Candidate type="Path">
+						<Value>Assets\vicar_amelia.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="weaponWallpaper.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/weaponWallpaper.jpg">
+					<Candidate type="Path">
+						<Value>Assets\weaponWallpaper.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wheel_Hunter_Badge.png" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/Wheel_Hunter_Badge.png">
+					<Candidate type="Path">
+						<Value>Assets\Wheel_Hunter_Badge.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="witch_of_hemwick_boss.jpg" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Assets/witch_of_hemwick_boss.jpg">
+					<Candidate type="Path">
+						<Value>Assets\witch_of_hemwick_boss.jpg</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://11078Deppers.BloodborneInfoApp/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

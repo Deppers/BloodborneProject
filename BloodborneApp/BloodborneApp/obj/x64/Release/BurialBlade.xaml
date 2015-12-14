@@ -1,0 +1,73 @@
+﻿<Page
+    x:Class="BloodborneApp.BurialBlade"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:ConnectionId='1' x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top"                     />
+        <Image x:ConnectionId='2' x:Name="image" HorizontalAlignment="Left" Height="132" Margin="116,186,0,0" VerticalAlignment="Top" Width="129" Source="/Assets/burial_blade.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:ConnectionId='4' x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+        		<Run Text="The Burial Blade is a Trick Weapon in Bloodborne. It is a curved sword that can be transformed into a two-handed Scythe. There are 3 versions of this weapon: Normal, Uncanny and Lost. The only known differences being the Gem Imprints and the locations in which they are found."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="&quot;Trick weapon wielded by Gehrman, the first hunter.&quot;"/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="A masterpiece that defined the entire array of weapons crafted at the workshop. Its blade is forged with siderite, said to have fallen from the heavens."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Gehrman surely saw the hunt as a dirge of farewell, wishing only that his prey might rest in peace, never again to awaken to another harrowing nightmare. &quot;"/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Burial Blade Information"/>
+        		<LineBreak/>
+        		<Run Text="Transforms between a curved sword and a large scythe."/>
+        		<LineBreak/>
+        		<Run Text="Needs Blood Stone Shards and Blood Echoes to fully upgrade."/>
+        		<LineBreak/>
+        		<Run Text="To perform a leap attack, input forward on the left stick as you press R2."/>
+        		<LineBreak/>
+        		<Run Text="To perform a transformation attack, press L1 while performing another attack or dodge."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Location"/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Normal"/>
+        		<LineBreak/>
+        		<Run Text="Purchased from the Messengers for 60,000 Blood Echoes after defeating Gehrman, the First Hunter and acquiring the Old Hunter Badge from him."/>
+        		<LineBreak/>
+        		<Run Text="To make Gehrman fight you, the &quot;Refuse&quot; option must be selected."/>
+        		<LineBreak/>
+        		<Run Text="If one accepts his proposal, the game will normally outright end and it would be impossible to obtain this weapon in that playthrough."/>
+        		<LineBreak/>
+        		<Run Text="Normally, the Burial Blade can only be obtained in NG+ and beyond, however, one can exploit this by using Bold Hunter's Mark under this condition."/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="138,146,0,0" TextWrapping="Wrap" Text="Burial Blade" VerticalAlignment="Top" RenderTransformOrigin="0.22,-0.067" Height="20"/>
+
+
+    </Grid>
+</Page>
+

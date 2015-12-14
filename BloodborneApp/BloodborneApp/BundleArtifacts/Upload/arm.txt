@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\bin\ARM\Release\Upload\BloodborneApp_1.1.1.0_ARM.appx
+SymbolPackage=C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\AppPackages\BloodborneApp_1.1.1.0\BloodborneApp_1.1.1.0_ARM.appxsym

@@ -1,0 +1,98 @@
+﻿<Page
+    x:Class="BloodborneApp.DarkbeastPaarl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:ConnectionId='1' x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top"                     />
+        <Image x:ConnectionId='2' x:Name="image" HorizontalAlignment="Left" Height="183" Margin="18,168,0,0" VerticalAlignment="Top" Width="331" Source="/Assets/darkbeast_paarl_boss.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:ConnectionId='4' x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="Darkbeast Paarl is a Boss in Bloodborne. A malformed beast enveloped in blue lightning. With a long body made of only bones, and a wrinkle-covered skull, people say this beast must be very old, very ancient. Or perhaps, it is a descendant of the city of the plague of beasts."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Darkbeast Paarl Information"/>
+            	<LineBreak/>
+            	<Run Text="Henryk's Hunter Set is highly effective against Paarl, as it has extremely high Bolt resistance."/>
+            	<LineBreak/>
+            	<Run Text="Entering the Darkbeast Paarl boss room and gaining 1 Insight causes Djura to become friendly and you can peacefully talk with him on the tower. It seems that it doesn't matter if you have engaged him before or killed his partner on the ground. The only thing that matters is that you don't get spotted by him while getting into the location from this entrance before you ascend the ladder."/>
+            	<LineBreak/>
+            	<Run Text="After Paarl's defeat, a shortcut to Old Yharnam is made available."/>
+            	<LineBreak/>
+            	<Run Text="During the boss fight, one may perform a special attack on the beast's head by knocking it down and performing a regular attack to the downed head. This will result in a visceral attack which will take about a third of its health."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Locations"/>
+            	<LineBreak/>
+            	<Run Text="In Hypogean Gaol, from the lantern, go down into the spiral stairs and enter the first prison room with two Witches and Snatchers. At the end of the room there is a hole that leads outside where you drop down a ledge and fight the boss."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Drops"/>
+            	<LineBreak/>
+            	<Run Text="Blood Echoes NG (23,100), NG+ (125,559), NG+6 (313,898)"/>
+            	<LineBreak/>
+            	<Run Text="NG+9 (538,648) [according to CapitaineToinon s video at 40:17, either continues scaling and/or runes involved?]"/>
+            	<LineBreak/>
+            	<Run Text="Spark Hunter Badge"/>
+            	<LineBreak/>
+            	<Run Text="Bold Hunter's Mark if badge already obtained"/>
+            	<LineBreak/>
+            	<Run Text="Lower Ailing Loran Root Chalice (when fought in Lower Loran Chalice)"/>
+            	<LineBreak/>
+            	<Run Text="Gain 1 Insight for finding the boss and 3 Insight for killing it."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Combat Information"/>
+            	<LineBreak/>
+            	<Run Text="Weak to Arcane and Fire Damage. It can also be knocked over with R2 charged attacks aimed at the center (such as the Axe)"/>
+            	<LineBreak/>
+            	<Run Text="Strong against Blunt and Bolt damage."/>
+            	<LineBreak/>
+            	<Run Text="Slow and steady wins the race. Watch out for his swipes, usually 2-3 (left, right, or left, right, downward) then go for a hit. Run away, rinse/repeat."/>
+            	<LineBreak/>
+            	<Run Text="Instead of backing up from him to avoid his AoE, unlock the camera and attempt to roll through it. You will have a good 2-second window to land free hits on him after that."/>
+            	<LineBreak/>
+            	<Run Text="Look for windows to launch a strong attack. Several of these plus well-timed small hits could make short work of the boss."/>
+            	<LineBreak/>
+            	<Run Text="After approximately 1 minute of fight, boss will infuse himself with more electricity. This moment can be clearly seen: boss will stand at two legs and howl when starting to glow more intensively. At this stage, his pattern will become more aggresive, swipes will be faster and gain additional range — electric bolts will flow out of beast's claws with each strike."/>
+            	<LineBreak/>
+            	<Run Text="Beating this encounter with locked-on camera can be tough, because it may go haywire due to Paarl's speed and chaotic moves. Consider using unlocked camera and rolling in his swipes (making use of invincibility frames), straight under his belly."/>
+            	<LineBreak/>
+            	<Run Text="Each of Paarl's leg have its own healthbar, which doesn't have visible indicator. It is possible to knock him down multiple times in a row if you manage to attack different legs simultaneously. Also, his skull can &quot;break&quot; too. It won't knock him down, but will stagger him for a solid 3-5 seconds and discharge his electric field."/>
+            	<LineBreak/>
+            	<Run Text="After losing his electric field, Paarl will try to attack you 1 or 2 times, and then escape to safety and infuse himself with electricity. If you constantly chase him, he won't be able to recharge. A wise hunter can make some use of this weakness."/>
+            	<LineBreak/>
+            	<Run Text="In NG+, Paarl recovers both electrical charges much more rapidly with the second stage almost immediately after the first."/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="133,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top">
+        	<Run Text="Darkbeast"/>
+        	<Run Text="Paarl"/>
+        </TextBlock>
+    </Grid>
+</Page>
+

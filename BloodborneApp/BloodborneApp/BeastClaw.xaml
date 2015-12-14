@@ -1,0 +1,73 @@
+﻿<Page
+    x:Class="BloodborneApp.BeastClaw"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Image HorizontalAlignment="Left" Height="149" Margin="112,97,0,0" VerticalAlignment="Top" Width="151" Source="/Assets/beast_claw.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="23,344,0,0" VerticalAlignment="Top" Width="320">
+            <TextBlock x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="The Beast Claw is a Trick Weapon in Bloodborne. There are 3 versions of this weapon: Normal, Uncanny and Lost. The only known differences being the Gem Imprints and the locations in which they are found."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="&quot;Beastly weapon wielded by Irreverent Izzy."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Crafted by chiseling the long bones of an undead darkbeast and fastening them to the weapon. The bones are still alive, and when unleashed, grant its wielder a spurt of beastly power."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="As flesh is flayed and blood is sprayed, the beast within awakens, and in time, the wielder of this weapon surges with both strength and feverish reverie.&quot;"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Beast Claw Information"/>
+            	<LineBreak/>
+            	<Run Text="This is the Strength equivalent of the Blade of Mercy with lower scaling but higher damage potential."/>
+            	<LineBreak/>
+            	<Run Text="Regular mode is claw in right hand only, transform to dual wielded claws."/>
+            	<LineBreak/>
+            	<Run Text="Requires Blood Stone Shards and Blood Echoes to fully upgrade."/>
+            	<LineBreak/>
+            	<Run Text="To perform a leap attack, input forward on the left stick as you press R2."/>
+            	<LineBreak/>
+            	<Run Text="To perform a transformation attack, press L1 while performing another attack or dodge.(Only works while transforming back to its one-handed state from its two-handed state.)"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Location"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Normal"/>
+            	<LineBreak/>
+            	<Run Text="Ailing Loran Chalice: Layer 2 treasure room. Room is on the right when exiting the elevator from first layer boss fight, before the second layers lantern."/>
+            	<LineBreak/>
+            	<Run Text="Can be bought from messengers for 34000 echoes after acquisition."/>
+            	<LineBreak/>
+            	<Run Text="Can be bought from messengers after co-operation with player who has them. This only occurs in Hunter's dream before fight with Gehrman or Moon Presence. It is not needed to complete any Chalice Dungeons. It is unknown if this is glitch or intentional. Was patched by 1.07 or 1.08."/>
+            </TextBlock>
+        </ScrollViewer>
+        <Button x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="279,13,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <TextBlock x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="152,59,0,0" TextWrapping="Wrap" Text="Beast Claw" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>

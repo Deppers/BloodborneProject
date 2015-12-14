@@ -1,0 +1,71 @@
+﻿<Page
+    x:Class="BloodborneApp.MartyrLorgarius"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:ConnectionId='1' x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top"                     />
+        <Image x:ConnectionId='2' x:Name="image" HorizontalAlignment="Left" Height="188" Margin="12,167,0,0" VerticalAlignment="Top" Width="342" Source="/Assets/logarius_boss.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:ConnectionId='4' x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="Martyr Logarius is a Boss in Bloodborne."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Martyr Logarius Information"/>
+            	<LineBreak/>
+            	<Run Text="This boss fight is optional. Make sure you have lit the Cainhurst Castle lamp before defeating this boss or you will lose access to the level."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Location"/>
+            	<LineBreak/>
+            	<Run Text="Forsaken Cainhurst Castle. The player must carefully navigate Cainhurst's roof and find a ladder that leads to Logarius."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Drops"/>
+            	<LineBreak/>
+            	<Run Text="Blood echoes NG (25600), NG+ (117837), NG++ (?), NG+3 (147297), NG+7 (294,593)"/>
+            	<LineBreak/>
+            	<Run Text="[no NG+6 source to cross reference]"/>
+            	<LineBreak/>
+            	<Run Text="NG+9 (505,521) [according to CapitaineToinon 's video at 37:36, either continues scaling and/or runes involved?]"/>
+            	<LineBreak/>
+            	<Run Text="Crown of Illusions"/>
+            	<LineBreak/>
+            	<Run Text="Gain 1 Insight for finding the boss and 3 Insight for killing it."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Combat Information"/>
+            	<LineBreak/>
+            	<Run Text="Strong against Fire, Arcane and Bolt damage."/>
+            	<LineBreak/>
+            	<Run Text="Logarius can be staggered with firearms quite easily during his second phase when doing physical attacks. Bring Quicksilver Bullets and take advantage of these staggers with Visceral Attacks."/>
+            	<LineBreak/>
+            	<Run Text="He can't fall off because of invisible walls over there on that roof. The player, however, can fall of the roof."/>
+            	<LineBreak/>
+            	<Run Text="Use the obstacles on the rooftop to break off the line-of-sight of his spell missiles. When he stabs the roof with his sword, swords will spawn in the air and shoot at the player, to get rid of them simply attack the sword (you can lock on to the sword to shoot it)."/>
+            	<LineBreak/>
+            	<Run Text="Caution: when he buffs himself bullets no longer stun and melee attacks will no longer interrupt his. If the player backstabs him while he is charging his buff, the bullets will still work, as will melee attacks to interrupt his attacks. This makes the second half of the fight significantly easier (He will however still have the new moveset)."/>
+            	<LineBreak/>
+            	<Run Text="If you lock on and stand in-front of him while staying close to him as to lure out his melee attack you can get through the entire fight without him casting his buff. The sweet spot to interrupt his attack is at the very peek of the swing just before he brings the weapon back toward you. If the player can manage to keep him attacking and hit that sweet spot followed by Visceral Attacks the boss fight can be very easy."/>
+            	<LineBreak/>
+            	<Run Text="When going for hit n' runs, only do 2-3 hits and then dodge left. He always summons his exploding skull on his right side and by dodging left it should never connect."/>
+            	<LineBreak/>
+            	<Run Text="It's possible to roll through the exploding skull Logarius summons when you are close up to him. This will let you stay on top of him when he backsteps."/>
+            	<LineBreak/>
+            	<Run Text="Don't be tempted to use heavier weapons. Using the short version of Ludwig's Holy Blade or the sword part of the Kirkhammer will be more useful than the trick versions. If you can land a running combo on Logarius you can interrupt his attacks."/>
+            	<LineBreak/>
+            	<Run Text="When Logarius starts to fly around, keep an eye on him in the air and dodge just before he hits the ground. When he lands he is stunned for a second or so allowing you to get in and attack him again."/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="135,125,0,0" TextWrapping="Wrap" Text="Martyr Logarius " VerticalAlignment="Top"/>
+    </Grid>
+</Page>
+

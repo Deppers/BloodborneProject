@@ -1,0 +1,39 @@
+-Sign into windows Dev center
+-Go to dashboard
+-click create a new app
+-choose a name
+-on the next page choose to start submission
+-click on submission
+-Go to pricing and availability tab, set it to free, set the trial to never expire
+-app properties choose the type of app, what age rating applies at the top.
+-You dont need to bother with any other age ratings below that.
+-on the hardware choose which applies to your app
+-app declarations bottom two ticked, click save.
+
+Leave packages tab until the end.
+
+-In the assets folder in your project you will have a few files 
+
+LockScreenLogo.scale-200
+SplashScreen.scale-200
+Square44x44Logo.scale-200
+Square44x44Logo.targetsize-24_altform-unplated
+Square150x150Logo.scale-200
+StoreLogo
+Wide310x150Logo.scale-200
+
+You need to edit the photos to either fill them with colour, or Doges.. As long as there is no X and the image has been changed from the default.
+
+-After you have done this go to visual studio and on your app mine is C# "BloodborneApp (universal windows)" 
+-Right click
+-Go to store
+-create app packages
+
+-in your folder where your project is there will be a folder called app packages
+-in the folder there will be a file called "Your app name"_1.1.0.0_x86_x64_arm_bundle.appxupload
+
+-open back up the windows dev center and go to packages tab
+-drag and drop your app e.g "Your app name"_1.1.0.0_x86_x64_arm_bundle.appxupload and upload it
+-click save on the submission
+
+

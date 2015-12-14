@@ -1,0 +1,93 @@
+﻿<Page
+    x:Class="BloodborneApp.Gehrman"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:ConnectionId='1' x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top"                     />
+        <Image x:ConnectionId='2' x:Name="image" HorizontalAlignment="Left" Height="192" Margin="13,193,0,0" VerticalAlignment="Top" Width="339" Source="/Assets/gehrman_boss.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:ConnectionId='4' x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="Gehrman, the First Hunter is a Boss in Bloodborne, and one of the three possible final bosses of the game."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="&quot;Oh, Laurence... what's taking you so long... I've grown too old for this, of little use now, I'm afraid...&quot; "/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="&quot;Oh, Laurence... Master Willem... Somebody help me... Unshackle me please, anybody... I've had enough of this dream... The night blocks all sight... Oh, somebody, please... "/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="&quot;Hm hm hm ha ha ha... Dear oh dear, what was it? The Hunt? The Blood? Or the horrible Dream? It always comes down to the hunters' helper to clean up after these sort of messes.&quot;"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="&quot;Tonight... Gehrman joins the hunt....&quot;"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Gehrman, the First Hunter Information"/>
+            	<LineBreak/>
+            	<Run Text="You fight Gehrman if you choose the Refuse option when he presents you with 2 options after you talk to him, or if you attacked him in the Hunter's Dream after defeating Mergo's Wet Nurse."/>
+            	<LineBreak/>
+            	<Run Text="Defeating him will initiate a cut-scene. If you have consumed 3x One Third of Umbilical Cord, you will fight the Moon Presence, otherwise the game will end and you will obtain the Honoring Wishes trophy."/>
+            	<LineBreak/>
+            	<Run Text="Gain 1 Insight for finding the boss and 3 Insight for killing him."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Locations"/>
+            	<LineBreak/>
+            	<Run Text="Hunter's Dream"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Drops"/>
+            	<LineBreak/>
+            	<Run Text="Old Hunter Badge"/>
+            	<LineBreak/>
+            	<Run Text="Blood Echoes NG (128000) (64000 for co-operator), NG+6 and so on (980,480)"/>
+            	<LineBreak/>
+            	<Run Text="(no blood echoes are dropped if you take on Moon Presence)"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Combat Information"/>
+            	<LineBreak/>
+            	<Run Text="While using his scythe, Gehrman frequently uses a charge move that can be parried while he channels."/>
+            	<LineBreak/>
+            	<Run Text="Gehrman can be parried and riposted for the entirety of the fight. Whereas he is very fast and unpredictable in his third stage, he can still be staggered while he uses the charge move on his scythe. (need confirmation on other moves)"/>
+            	<LineBreak/>
+            	<Run Text="Shoot as he slices horizontally with his scythe for easy parries."/>
+            	<LineBreak/>
+            	<Run Text="He usually gives two side-swings to approach you, after which he's open for a quick R1 attack. Immediately move backwards (walking or dodging) after hitting him once."/>
+            	<LineBreak/>
+            	<Run Text="When Gehrman switches to the curved sword and blunderbuss, it may be more effective to stay close to him and dash (hit O) around him as he attacks and then get in a quick hit at the end of a combo. This seems to be more effective than hanging back since it is then harder to get in a hit and he can also stagger you with his gun even if you're not attacking. The stagger seems to only occur when he's using his pistol as opposed to his blunderbuss."/>
+            	<LineBreak/>
+            	<Run Text="It is also possible that in his powered up form, he will go for a jump attack but get stuck on a ledge if you're close enough to one, giving you free attacks with minimal chance of taking damage."/>
+            	<LineBreak/>
+            	<Run Text="In scythe form, a fairly easy way to deal with it is to bait out one of his attacks and walk backwards. His attack will fall short, and you have time to hit him once and repeat. For his curved sword and gun, run towards him and roll right, if he rolls and shoots you'll get two free hits on him. Then back out, because he might retaliate quickly. His long combo ends in a ground slam with his curved sword and then a shoot with his gun, if you stay close, you can roll through the gun shot and get a hit in on him. Take the fight slow, and stay close to max health, as his scythe does massive damage."/>
+            	<LineBreak/>
+            	<Run Text="Gehrman can alternate between a blunderbuss and a heavy pistol. The heavy pistol takes a moment to charge before firing, and being hit by it will parry the player even if they are not performing any action when hit."/>
+            	<LineBreak/>
+            	<Run Text="Uses Burial Blade and a unique unobtainable blunderbuss."/>
+            	<LineBreak/>
+            	<Run Text="Uses &quot;quickening&quot; to dramatically increase his mobility. Using the Old Hunter Bone produces the same effect."/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="105,148,0,0" TextWrapping="Wrap" Text="Gehrman, the First Hunter " VerticalAlignment="Top"/>
+    </Grid>
+</Page>
+

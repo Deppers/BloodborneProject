@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="BloodborneApp.StakeDriver"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="171" Margin="94,174,0,0" VerticalAlignment="Top" Width="170" Source="/Assets/stake_driver.jpg"/>
+        <TextBlock x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="141,126,0,0" TextWrapping="Wrap" Text="Stake Driver" VerticalAlignment="Top"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="Stake Driver is a Trick Weapon in Bloodborne. There are 3 versions of this weapon: Normal, Uncanny and Lost. The only known differences being the Gem Imprints and the locations in which they are found."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="&quot;A trick weapon fashioned by the workshop heretics, the Powder Kegs."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Favored by the retired hunter Djura. The stake driver, with its queerly complex design, violently drives thick stakes into the flesh of foes."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="The stake driver allows for high-damage critical attacks, but is difficult to use and leaves its wielder wide open, but none of this should bother a mere Powder Keg.&quot;"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Stake Driver Information"/>
+            	<LineBreak/>
+            	<Run Text="Does not transform; instead hitting L1 will prime or release the Stake."/>
+            	<LineBreak/>
+            	<Run Text="To perform a leap attack, input forward on the left stick as you press R2."/>
+            	<LineBreak/>
+            	<Run Text="To perform a transformation attack, press L1 while performing another attack or dodge."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Location"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Normal"/>
+            	<LineBreak/>
+            	<Run Text="Obtain Powder Keg Hunter Badge to unlock for purchase at the Messengers for 8,000 Blood Echoes."/>
+            </TextBlock>
+        </ScrollViewer>
+    </Grid>
+</Page>

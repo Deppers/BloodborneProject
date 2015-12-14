@@ -1,0 +1,1 @@
+C:\Users\Deppers\Desktop\BloodborneApp\BloodborneApp\BloodborneApp.csproj;x64

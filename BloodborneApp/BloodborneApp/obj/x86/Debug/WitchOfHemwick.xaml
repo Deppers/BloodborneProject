@@ -1,0 +1,91 @@
+﻿<Page
+    x:Class="BloodborneApp.WitchOfHemwick"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:ConnectionId='1' x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top"                     />
+        <Image x:ConnectionId='2' x:Name="image" HorizontalAlignment="Left" Height="203" Margin="10,162,0,0" VerticalAlignment="Top" Width="341" Source="/Assets/witch_of_hemwick_boss.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:ConnectionId='4' x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="Witch of Hemwick is a Boss in Bloodborne. It is a special variation of the Eye Collector."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="&quot;'In the outskirts of Yharnam, the city of gravekeeper witches carved by the sunlight, Hemwick. In its depths, an old, gigantic structure and one Old lady lies in wait. Holding suspicious rituals in the deepest of the night, for that very purpose it is said that she gathers the eyeballs of the living. In the city where unwanted corpses would be gathered and disposed of, her outfit might just be befitting of one such place.&quot;"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Witch of Hemwick Information"/>
+            	<LineBreak/>
+            	<Run Text="After defeating her a small cellar room in her abode can also be entered, where the Rune Workshop Tool is located on a corpse."/>
+            	<LineBreak/>
+            	<Run Text="The two witches can be told apart based on which one attacks you if you come close enough in front of them. The witch that attacks you upon approach is the one who's health bar is visible. The one who's health bar is not visible will not attack you. (Tested in phase one, unconfirmed when pushed into next phase)."/>
+            	<LineBreak/>
+            	<Run Text="During Co-op the co-operator (summoned player) cannot see the witches unless the Beckoner (host) is near them. You can see the effects and still attack them, though."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Locations"/>
+            	<LineBreak/>
+            	<Run Text="Hemwick Charnel Lane at the very end of this area."/>
+            	<LineBreak/>
+            	<Run Text="Pthumerian Ihyll Root Chalice as regular enemies which can summon Mad Ones."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Drops"/>
+            	<LineBreak/>
+            	<Run Text="Bloodshot Eyeball x4"/>
+            	<LineBreak/>
+            	<Run Text="Blood Echoes (11,800), NG+ (77,503), NG++ (?), NG+3 (96,878), NG+7 (193,756)"/>
+            	<LineBreak/>
+            	<Run Text="[no NG+6 source to cross reference]"/>
+            	<LineBreak/>
+            	<Run Text="NG+9 (332,485) [according to CapitaineToinon 's video at 33:31, either continues scaling and/or runes involved?]"/>
+            	<LineBreak/>
+            	<Run Text="Gain 1 Insight for finding the boss and 2 Insight for killing it."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Combat Information"/>
+            	<LineBreak/>
+            	<Run Text="There are 2 witches, the 2nd witch's HP bar doesn't show up until you kill first one. You can deal damage to the second witch even though the HP bar isn't on screen."/>
+            	<LineBreak/>
+            	<Run Text="Keep your eyes open for reddish glow in the room, that's usually where the witch is. Keep running around the arena, sometimes when you pass near her she will turn visible and open to attacks."/>
+            	<LineBreak/>
+            	<Run Text="The witches can revive each other. If you take too long to kill the second witch it will revive the first one with 20% of its health. It may be best to search for and deal some damage to the second witch before finishing off the first one otherwise the second half of the fight might be harder. The witch starts casting more spells during the second half of the fight."/>
+            	<LineBreak/>
+            	<Run Text="Mad Ones will spawn during the fight. The first one spawns when you enter, and then more will spawn after you have dealt some damage to the witches."/>
+            	<LineBreak/>
+            	<Run Text="You can ignore the Stalkers almost entirely and just search for the Witch. Keep hitting her until she drops below 50% health."/>
+            	<LineBreak/>
+            	<Run Text="No Mad Ones will spawn if you have 0 insight during the fight."/>
+            	<LineBreak/>
+            	<Run Text="The witches can damage each other with the arcane nova explosion."/>
+            	<LineBreak/>
+            	<Run Text="Very easy to back-stab dealing massive damage to the witch. After hitting the witch into a visceral able state if you wait about 1 second and charge up another backstab dealing more damage and allowing for a visceral attack still."/>
+            	<LineBreak/>
+            	<Run Text="Strong to bolt."/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="123,119,0,0" TextWrapping="Wrap" Text="Witch Of Hemwick" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
+

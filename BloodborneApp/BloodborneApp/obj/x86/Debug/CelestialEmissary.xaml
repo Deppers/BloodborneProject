@@ -1,0 +1,87 @@
+﻿<Page
+    x:Class="BloodborneApp.CelestialEmissary"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:ConnectionId='1' x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top"                     />
+        <Image x:ConnectionId='2' x:Name="image" HorizontalAlignment="Left" Height="186" Margin="18,179,0,0" VerticalAlignment="Top" Width="342" Source="/Assets/celestial_emissary_boss.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:ConnectionId='4' x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="Celestial Emissary is a Great One Boss and Chalice Dungeon Boss in Bloodborne."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Celestial Emissary Information"/>
+            	<LineBreak/>
+            	<Run Text="During this fight we see a crowd of Celestial Mob with the Celestial Emissary boss (which looks exactly like the other Celestials) hiding between them. While the other Celestial Mobs are hostile and chase the player, the Celestial Emissary stays back, giving the player a way to recognize him. An easy way to pick out the Emissary in a group is that he will have no life bar above his head when struck."/>
+            	<LineBreak/>
+            	<Run Text="Gain 0 Insight for finding the boss and 2 Insight for killing it."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Drops"/>
+            	<LineBreak/>
+            	<Run Text="Blood Echoes: NG (24,640), NG+ (92,848), NG++ (102,133), NG+3 (116,060). NG+7 and so on (232,120)"/>
+            	<LineBreak/>
+            	<Run Text="[no NG+6 source to cross reference]"/>
+            	<LineBreak/>
+            	<Run Text="Communion"/>
+            	<LineBreak/>
+            	<Run Text="Arcane Damp Blood Gem (6) (when fought in Great Isz Chalice)"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Location"/>
+            	<LineBreak/>
+            	<Run Text="In the Orphanage, in Upper Cathedral Ward (requires Orphanage Key dropped from enemy)."/>
+            	<LineBreak/>
+            	<Run Text="Great Isz Chalice (Layer 2)"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Combat Information"/>
+            	<LineBreak/>
+            	<Run Text="This boss fight has 3 phases:"/>
+            	<LineBreak/>
+            	<Run Text="Vulnerable to Bolt, then Fire"/>
+            	<LineBreak/>
+            	<Run Text="At the beginning of the fight there will simply be lots of Celestial Mobs trying to attack you."/>
+            	<LineBreak/>
+            	<Run Text="After he has lost 50% of his HP, the Celestial Emissary grows in size and acquires new attacks."/>
+            	<LineBreak/>
+            	<Run Text="Around the 25% HP mark, he will start growing tentacles in his head, similar to the Celestial Mobs that hurl arcane projectiles toward the player (note: this variant of Celestial Mob is not present in this boss fight)."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Celestial Mobs will keep spawning as long as the boss is alive and every Celestial Mob left will die instantly when the boss dies."/>
+            	<LineBreak/>
+            	<Run Text="In the Great Isz Chalice version the boss is more aggressive before the transformation and will hound the player. There are no extra enemies so it is easier to focus on the boss and dodge his attacks. After the transformation he may use his Cosmic Barrage attack if you back up to a medium to long range distance. Dodge his Cosmic Barrage either by sprinting in a circle or hiding behind the the convenient pillar placed in the middle of the room. All his moves except for the sudden Quad Stomp, and slightly quick Penta-Rush, are heavily telegraphed and are incredibly easy to dodge. Stay behind him when possible and shave off his health."/>
+            	<LineBreak/>
+            	<Run Text="A particularly easy strategy is just to get him to transform into the larger form and poison him and run to the higher area to take on the smaller mobs"/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="129,133,0,0" TextWrapping="Wrap" Text="Celestial Emissary " VerticalAlignment="Top"/>
+    </Grid>
+</Page>
+

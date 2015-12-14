@@ -1,0 +1,66 @@
+﻿<Page
+    x:Class="BloodborneApp.LudwigsHolyBlade"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="162" Margin="102,168,0,0" VerticalAlignment="Top" Width="162" Source="/Assets/ludwig.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="The Ludwig's Holy Blade is a Trick Weapon in Bloodborne."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="&quot;A trick weapon typically used by Healing Church hunters. It is said that the silver sword was employed by Ludwig, the first hunter of the church. When transformed, it combines with its sheath to form a greatsword. It exhibits several departures from the workshop's design, suggesting that the Church anticipated much larger inhuman beasts.&quot;"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Ludwig's Holy Blade Information"/>
+            	<LineBreak/>
+            	<Run Text="Transforms between a light longsword and a heavy greatsword."/>
+            	<LineBreak/>
+            	<Run Text="To perform a leap attack, input forward on the left stick as you press R2."/>
+            	<LineBreak/>
+            	<Run Text="To perform a transformation attack, press L1 while performing another attack or dodge."/>
+            	<LineBreak/>
+            	<Run Text="Ludwig's Holy Blade is considered a Church Weapon and does increased damage to enemies vulnerable to this class"/>
+            	<LineBreak/>
+            	<Run Text="See the Ludwig page for more information about him."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Location"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Normal"/>
+            	<LineBreak/>
+            	<Run Text="Can be purchased for 20,000 echoes from the Messengers after obtaining the Radiant Sword Hunter Badge."/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="119,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top">
+        	<Run Text="Ludwig"/>
+        	<Run Text="'s"/>
+        	<Run Text=" Holy Blade"/>
+        </TextBlock>
+    </Grid>
+</Page>

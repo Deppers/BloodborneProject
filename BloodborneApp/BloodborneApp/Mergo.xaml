@@ -1,0 +1,90 @@
+﻿<Page
+    x:Class="BloodborneApp.Mergo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="196" Margin="18,174,0,0" VerticalAlignment="Top" Width="330" Source="/Assets/mergos_wet_nurse_boss.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="Mergo's Wet Nurse is a Great One Boss in Bloodborne, and one of the three possible Final Bosses."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Mergo's Wet Nurse Information"/>
+            	<LineBreak/>
+            	<Run Text="Gain 3 Insight for finding the boss and 3 Insight for killing it."/>
+            	<LineBreak/>
+            	<Run Text="This boss is not optional"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Location"/>
+            	<LineBreak/>
+            	<Run Text="Nightmare of Mensis upper part after inside elevator, after the Mergo's Loft: Middle lamp."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Drops"/>
+            	<LineBreak/>
+            	<Run Text="Blood echoes (Always gives 72000, regardless of NG+ level)"/>
+            	<LineBreak/>
+            	<Run Text="One Third of Umbilical Cord"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Combat Information"/>
+            	<LineBreak/>
+            	<Run Text="When health drops below 70%, Phase 2 initiates, but only becomes more aggressive during Nightmare Veil."/>
+            	<LineBreak/>
+            	<Run Text="Do not fear her flurry attack that uses all blades- it may seem intimidating, but if you can run around to its back, it can only hit you a couple of times from there and you can easily regain that health by attacking. It's also the best time to lay down some heavy damage."/>
+            	<LineBreak/>
+            	<Run Text="At unknown triggers, the nurse will create a purple fog that engulfs the area, and a clone will appear. After about a minute, this fog will dissipate, as will the clone. During the fog, the clone will warp around the arena (typically behind the player) in an attempt to catch the player off-guard. While the original uses a variety of leaping and long-range attacks, where her arms extend to extreme length. During this part of the fight the back of the boss is wide open, and you can deal massive damage."/>
+            	<LineBreak/>
+            	<Run Text="The clone dies in 1 hit, if you are using a fast weapon you can take it out each time and go back to the boss to get in easy damage."/>
+            	<LineBreak/>
+            	<Run Text="When the purple fog is cast, lock onto the original and evade counter-clockwise. She will always teleport to the player's left side, and won't be able to keep up. During subsequent fog episodes both Mergo and the clone will teleport on the players right as they run counter-clockwise. The strategy still works perfectly though with the occasional jump/roll added while moving."/>
+            	<LineBreak/>
+            	<Run Text="It is possible to prevent the purple mist if you can stagger her while she is casting it."/>
+            	<LineBreak/>
+            	<Run Text="Evade toward her left side to avoid many of her attacks. Getting to her back side guarantees safety from most of her attacks."/>
+            	<LineBreak/>
+            	<Run Text="Poison throwing knives are very effective against this boss."/>
+            	<LineBreak/>
+            	<Run Text="Molotovs and Oil Urns can combine for a safe, effective strategy."/>
+            	<LineBreak/>
+            	<Run Text="The Arcane weapon buff Empty Phantasm Shell is effective against this enemy."/>
+            	<LineBreak/>
+            	<Run Text="Using the Tiny Music Box during this fight will cause the Wet Nurse to side step."/>
+            	<LineBreak/>
+            	<Run Text="Most of her attacks (save from the blade flurry) can be rolled under. Pay attention to which way her arms move when she swings them around."/>
+            	<LineBreak/>
+            	<Run Text="She is particularly weak to bolt, a levelled up Tonitrus or a levelled up weapon with Bolt paper will do massive damage to her."/>
+            	<LineBreak/>
+            	<Run Text="She is weak to Rapid Poison as well."/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="121,130,0,0" TextWrapping="Wrap" Text="Mergo's Wet Nurse" VerticalAlignment="Top"/>
+    </Grid>
+</Page>

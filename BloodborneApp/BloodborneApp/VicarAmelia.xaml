@@ -1,0 +1,80 @@
+﻿<Page
+    x:Class="BloodborneApp.VicarAmelia"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BloodborneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button x:Name="button" Foreground="Khaki" Content="Home" HorizontalAlignment="Left" Margin="257,39,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="196" Margin="8,154,-1,0" VerticalAlignment="Top" Width="353" Source="/Assets/vicar_amelia.jpg"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="25,411,0,0" VerticalAlignment="Top" Width="311">
+            <TextBlock x:Name="textBlock" Foreground="Khaki" TextWrapping="Wrap">
+            	<Run Text="Vicar Amelia is a Boss in Bloodborne."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="&quot;Seek the old blood. Let us pray... let us wish... to partake in communion. Let us partake in communion... and feast upon the old blood."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Our thirst for blood satiates us, soothes our fears. Seek the old blood... but beware the frailty of men. Their wills are weak, minds young."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="The foul beasts will dangle nectar and lure the meek into the depths. Remain wary of the frailty of men. Their wills are weak, minds young."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Were it not for fear, death would go unlamented.&quot;"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Vicar Amelia Information"/>
+            	<LineBreak/>
+            	<Run Text="After defeating Vicar Amelia and interacting with the altar, the world state advances and turns to night time. At night, some enemies become stronger, while others fall asleep and won't react until the player approaches them."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Location"/>
+            	<LineBreak/>
+            	<Run Text="In Cathedral Ward, past the big circular graveyard, up the stairs, inside the Grand Cathedral."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Lore"/>
+            	<LineBreak/>
+            	<Run Text="Vicars were the heads of the Healing Church, as is revealed in the item description for the Gold Pendant, which she can be seen clutching in the cutscene, and even in battle after her grotesque transformation. This would make her the last Vicar, who oversaw the Church as Yharnam fell to the beasthood brought upon it by misuse of the Old Blood. As the player finds her, she is seen praying to the altar in the Grand Cathedral which hold a misshapen skull, presumably that of Laurence, the founder of the Healing Church. Here she kneels awaiting her inevitable transformation, praying, clasping her pendant which existed to carry a reminder that had been all but forgotten, and that may have prevented the madness that led Yharnam to ruin before her eyes: Fear the Old Blood."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Drops"/>
+            	<LineBreak/>
+            	<Run Text="Blood Echoes NG (15,000), NG+ (103,425), NG++ (113,768), NG+3 (129,282), NG+4 (155,138), NG+6 and so on (258,563)"/>
+            	<LineBreak/>
+            	<Run Text="Gold Pendant"/>
+            	<LineBreak/>
+            	<Run Text="Gain 1 Insight for finding the boss and 3 Insight for killing it."/>
+            	<LineBreak/>
+            	<Run/>
+            </TextBlock>
+        </ScrollViewer>
+        <TextBlock x:Name="textBlock1" Foreground="Khaki" HorizontalAlignment="Left" Margin="151,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top">
+        	<Run Text="Vi"/>
+        	<Run Text="ca"/>
+        	<Run Text="r Amelia"/>
+        </TextBlock>
+    </Grid>
+</Page>
